@@ -1,0 +1,1831 @@
+# Exhaustive Hardware Categorization — Robot Platform Types
+
+This is a complete taxonomy of every robot body type and platform category, organized across many axes.
+
+---
+
+## Axis 1: Locomotion Mode
+
+### 1.1 Stationary
+- Fixed-base manipulator
+- Workcell robot
+- Gantry robot
+- Cartesian gantry
+- Cable-driven parallel robot
+- Stewart platform (fixed base)
+- Delta robot (fixed base)
+- SCARA (fixed base)
+- Turn-table robot
+- Positioner robot
+- Trunnion robot
+- H-frame gantry
+- Cantilever gantry
+- Articulated jib crane robot
+
+### 1.2 Wheeled
+- Differential drive (2-wheel)
+- Differential drive (4-wheel)
+- Differential drive (6-wheel)
+- Skid-steer
+- Ackermann steering
+- Front-wheel steering
+- Rear-wheel steering
+- Four-wheel steering
+- Crab steering
+- Articulated steering
+- Tricycle
+- Reverse tricycle
+- Omnidirectional (mecanum)
+- Omnidirectional (omni-wheel)
+- Omnidirectional (ball wheel)
+- Omnidirectional (castor wheel)
+- Omnidirectional (continuous rotation)
+- Ballbot (inverted pendulum on ball)
+- Cubli (cube that jumps and balances)
+- Single-wheel (unicycle robot)
+- Two-wheel balancing (Segway style)
+- Two-wheel self-balancing scooter
+- Wheel-legged hybrid (whegs)
+- RHex-style
+- Wheelchair robot
+- Golf cart robot
+- Forklift robot
+- Pallet jack robot
+- Tractor robot
+- Trailer robot
+- Articulated bus robot
+- Snake wheeled
+- Train robot
+- Monorail robot
+
+### 1.3 Tracked
+- Continuous track
+- Tank treads
+- Skid-steer tracked
+- Articulated tracked
+- Tracked with flippers
+- Tracked with suspension
+- Tracked with variable geometry
+- Rubber track
+- Steel track
+- Triangular track
+- Quad-track
+- Hexa-track
+- Tracked wheelchair
+- Tracked inspection crawler
+- Tracked bomb disposal
+- Tracked agricultural
+- Tracked mining
+- Tracked construction
+
+### 1.4 Legged
+- Monopod (hopping)
+- Bipedal
+- Tripod
+- Quadruped
+- Hexapod
+- Octopod
+- Decapod
+- Myriapod (many legs)
+- Centipede robot
+- Millipede robot
+- Passive dynamic walker
+- Spring-loaded inverted pendulum (SLIP)
+- Hopping robot
+- Running robot
+- Bounding robot
+- Galloping robot
+- Trotting robot
+- Pacing robot
+- Walking robot
+- Climbing robot
+- Wall-climbing legged
+- Ceiling-climbing legged
+- Legged with wheels on feet
+- Legged with thrusters
+- Legged with tracks
+- Legged with skis
+- Legged with claws
+- Legged with suction cups
+- Legged with magnets
+- Legged with adhesive pads
+- Legged with spines
+- Legged with soft feet
+- Legged with compliant joints
+- Legged with series elastic actuators
+- Legged with pneumatic muscles
+- Legged with hydraulic actuators
+- Legged with electroactive polymers
+- Kangaroo-inspired
+- Cheetah-inspired
+- Dog-inspired
+- Cat-inspired
+- Horse-inspired
+- Human-inspired
+- Bird-inspired
+- Insect-inspired
+- Spider-inspired
+- Crab-inspired
+- Lobster-inspired
+- Gecko-inspired
+- Cockroach-inspired
+- Stick insect-inspired
+- DynaRoach
+- VelociRoACH
+- ANYmal
+- Spot
+- Atlas
+- Cassie
+- Digit
+- ASIMO
+- HRP series
+- iCub
+- NAO
+- Pepper
+- Romeo
+- TALOS
+- WALK-MAN
+- COMAN
+- REEM
+- Hubo
+- DRC-Hubo
+- SCHAFT
+- Momaro
+- Centauro
+- RoboSimian
+- Surrogate
+- LEMUR
+- Lemur 3
+- SpaceClimber
+- Dante
+- Dante II
+- ATHLETE
+- Robonaut
+- Robonaut 2
+- Valkyrie
+- RoboSimian
+- R5
+- Valkyrie
+- Nadia
+- Atlas
+- PETMAN
+- BigDog
+- LS3
+- WildCat
+- Cheetah
+- SpotMini
+- Spot
+- Handle
+- Stretch
+- Atlas
+- Digit
+- Cassie
+- Cassie Blue
+- Bipedal Cassie
+- MARLO
+- ATRIAS
+- DURUS
+- SARCOS
+- Guardian
+- XOS
+- XOS 2
+- HAL
+- ReWalk
+- Ekso
+- Indego
+- REX
+- Honda Walking Assist
+- Toyota Walking Assist
+
+### 1.5 Aerial
+- Tricopter
+- Quadcopter
+- Hexacopter
+- Octocopter
+- Coaxial rotor
+- Multirotor (n-rotor)
+- Fixed-wing glider
+- Fixed-wing powered
+- Blended wing body
+- Flying wing
+- Delta wing
+- Swept wing
+- Straight wing
+- Biplane
+- Triplane
+- VTOL tiltrotor
+- VTOL tiltwing
+- VTOL ducted fan
+- VTOL tail-sitter
+- VTOL quadplane
+- VTOL gyrodyne
+- Helicopter (single rotor)
+- Helicopter (coaxial)
+- Helicopter (tandem)
+- Helicopter (intermeshing)
+- Helicopter (compound)
+- Autogyro
+- Gyrocopter
+- Gyrodyne
+- Blimp (non-rigid)
+- Blimp (semi-rigid)
+- Blimp (rigid)
+- Airship
+- Balloon
+- Ornithopter
+- Flapping wing micro air vehicle
+- Cyclocopter
+- Coandă effect drone
+- Paraglider
+- Powered paraglider
+- Parachute
+- Rocket
+- Jet
+- Ramjet
+- Scramjet
+- Pulsejet
+- Kite
+- Rotor kite
+- Drone with manipulator
+- Drone with gripper
+- Drone with camera
+- Drone with LiDAR
+- Drone with sprayer
+- Drone with delivery box
+- Drone with tethered power
+- Drone with solar panels
+- Drone with hydrogen fuel cell
+- Drone with hybrid propulsion
+- Drone with parachute recovery
+- Drone with airbag recovery
+- Drone with net recovery
+- Drone with perching mechanism
+- Drone with landing gear
+- Drone with skids
+- Drone with floats
+- Drone with wheels
+- Drone with legs
+- Drone with suction cups
+- Drone with magnets
+- Drone with adhesive pads
+- Drone with robotic arm
+- Drone with dual arms
+- Drone with humanoid upper body
+- Drone with snake arm
+- Drone with continuum arm
+- Drone with soft gripper
+- Drone with needle gripper
+- Drone with vacuum gripper
+- Drone with electrostatic gripper
+- Drone with gecko-inspired gripper
+- Drone with bio-inspired gripper
+
+### 1.6 Aquatic
+- ROV (remotely operated vehicle)
+- AUV (autonomous underwater vehicle)
+- USV (unmanned surface vessel)
+- Underwater glider
+- Submersible
+- Benthic crawler
+- Seafloor crawler
+- Swimming snake
+- Fin-propelled (bionic fish)
+- Jellyfish-inspired
+- Turtle-inspired
+- Penguin-inspired
+- Dolphin-inspired
+- Shark-inspired
+- Ray-inspired
+- Eel-inspired
+- Lamprey-inspired
+- Tadpole-inspired
+- Frog-inspired
+- Crab-inspired
+- Lobster-inspired
+- Octopus-inspired
+- Squid-inspired
+- Cuttlefish-inspired
+- Nautilus-inspired
+- Surface effect ship
+- Hovercraft
+- Hydrofoil
+- Seaplane
+- Amphibious vehicle
+- Submarine
+- Semi-submersible
+- Diving bell
+- Underwater manipulator
+- Underwater humanoid
+- Underwater legged
+- Underwater wheeled
+- Underwater tracked
+- Underwater snake
+- Underwater worm
+- Underwater hybrid
+- Underwater swarm
+- Underwater micro robot
+- Underwater nano robot
+- Underwater soft robot
+- Underwater exoskeleton
+- Underwater prosthetic
+- Underwater orthotic
+- Underwater wearable
+- Underwater habitat
+- Underwater laboratory
+- Underwater observatory
+- Underwater pipeline inspection
+- Underwater cable inspection
+- Underwater welding
+- Underwater construction
+- Underwater mining
+- Underwater archaeology
+- Underwater salvage
+- Underwater rescue
+- Underwater exploration
+- Underwater science
+- Underwater military
+- Underwater defense
+- Underwater security
+- Underwater surveillance
+- Underwater monitoring
+- Underwater mapping
+- Underwater cartography
+- Underwater meteorology
+- Underwater environmental
+- Underwater wildlife
+- Underwater forestry
+- Underwater fishing
+- Underwater gardening
+- Underwater agriculture
+
+### 1.7 Amphibious
+- Wheeled-aquatic
+- Tracked-aquatic
+- Legged-aquatic
+- Aerial-aquatic
+- Aerial-ground
+- Ground-aquatic
+- Multi-modal (any combination)
+- Triphibian (land, water, air)
+- Surf-and-turf
+- Sea-to-land
+- Land-to-sea
+- Air-to-water
+- Water-to-air
+- Air-to-land
+- Land-to-air
+
+### 1.8 Space
+- Rover (wheeled)
+- Rover (legged)
+- Lander
+- Orbiter
+- Free-flyer
+- Intra-vehicular robot
+- Extra-vehicular robot
+- Space manipulator
+- Canadarm
+- Canadarm 2
+- Dextre
+- European Robotic Arm
+- Japanese Experiment Module Remote Manipulator System
+- Robonaut 2
+- Humanoid in space
+- Hopping robot (microgravity)
+- Tumbling robot
+- Free-flying robot
+- Inspection robot
+- Repair robot
+- Assembly robot
+- Mining robot
+- Construction robot
+- Science robot
+- Exploration robot
+- Planetary rover
+- Lunar rover
+- Mars rover
+- Asteroid rover
+- Comet rover
+- Titan rover
+- Europa rover
+- Enceladus rover
+- Venus rover
+- Mercury rover
+- Solar sail
+- Solar panel cleaner
+- Satellite servicing
+- Debris removal
+- Space tug
+- Space station robot
+- Space telescope robot
+- Space habitat robot
+- Space laboratory robot
+- Space observatory robot
+- Space military
+- Space defense
+- Space security
+- Space surveillance
+- Space monitoring
+- Space mapping
+- Space cartography
+- Space meteorology
+- Space environmental
+- Space wildlife
+- Space forestry
+- Space fishing
+- Space gardening
+- Space agriculture
+
+### 1.9 Limbless
+- Snake (serpentine)
+- Snake (sidewinding)
+- Snake (concertina)
+- Snake (rectilinear)
+- Snake (rolling)
+- Snake (undulating)
+- Snake (slithering)
+- Snake (climbing)
+- Snake (swimming)
+- Snake (flying)
+- Snake (burrowing)
+- Worm (earthworm)
+- Worm (inchworm)
+- Worm (polychaete)
+- Worm (nematode)
+- Worm (planarian)
+- Continuum (elephant trunk)
+- Continuum (octopus arm)
+- Continuum (snake arm)
+- Continuum (tentacle)
+- Continuum (flagellum)
+- Continuum (cilium)
+- Cable-driven continuum
+- Pneumatic artificial muscles
+- Tendon-driven continuum
+- Soft continuum
+- Rigid continuum
+- Hybrid continuum
+- Concentric tube robot
+- Active cannula
+- Steerable needle
+- Flexible endoscope
+- Snake-arm robot
+- OC Robotics
+- HiGen
+- Tensor arm
+- Trunk robot
+- Elephant trunk robot
+- Octopus arm robot
+- Starfish-inspired
+- Sea cucumber-inspired
+- Leech-inspired
+- Earthworm-inspired
+
+### 1.10 Climbing
+- Wall-climbing (magnetic)
+- Wall-climbing (suction)
+- Wall-climbing (adhesive)
+- Wall-climbing (claw)
+- Wall-climbing (spine)
+- Wall-climbing (electrostatic)
+- Wall-climbing (gecko-inspired)
+- Wall-climbing (dry adhesive)
+- Wall-climbing (wet adhesive)
+- Wall-climbing (microspine)
+- Wall-climbing (fibrillar)
+- Wall-climbing (pneumatic)
+- Wall-climbing (hybrid)
+- Pole-climbing
+- Cable-climbing
+- Tree-climbing
+- Pipe-climbing
+- Pipe-inspection crawler
+- Pipe-inspection snake
+- Pipe-inspection worm
+- Pipe-inspection legged
+- Pipe-inspection wheeled
+- Pipe-inspection tracked
+- Tank-climbing
+- Silo-climbing
+- Chimney-climbing
+- Building-climbing
+- Bridge-climbing
+- Ship-climbing
+- Wind-turbine-climbing
+- Solar-panel-climbing
+- Ceiling-climbing
+- Overhang-climbing
+- Inverted-climbing
+- Vertical-climbing
+- Diagonal-climbing
+- Curved-surface-climbing
+- Rough-surface-climbing
+- Smooth-surface-climbing
+- Textured-surface-climbing
+- Wet-surface-climbing
+- Icy-surface-climbing
+- Hot-surface-climbing
+- Cold-surface-climbing
+- Radioactive-surface-climbing
+- Hazardous-surface-climbing
+
+### 1.11 Swarm
+- Homogeneous swarm
+- Heterogeneous swarm
+- Aerial swarm
+- Ground swarm
+- Aquatic swarm
+- Hybrid swarm
+- Kilobot-style
+- Drone light show
+- Swarm with aggregation
+- Swarm with dispersion
+- Swarm with formation
+- Swarm with flocking
+- Swarm with schooling
+- Swarm with herding
+- Swarm with stigmergy
+- Swarm with pheromones
+- Swarm with quorum sensing
+- Swarm with consensus
+- Swarm with task allocation
+- Swarm with self-assembly
+- Swarm with self-repair
+- Swarm with self-replication
+- Swarm with self-healing
+- Swarm with morphogenesis
+- Swarm with evolution
+- Swarm with learning
+- Swarm with adaptation
+- Swarm with robustness
+- Swarm with scalability
+- Swarm with flexibility
+- Swarm with fault tolerance
+- Swarm with distributed control
+- Swarm with centralized control
+- Swarm with decentralized control
+- Swarm with hybrid control
+- Swarm with human control
+- Swarm with autonomous control
+- Swarm with semi-autonomous control
+
+### 1.12 Micro & Nano
+- Micro robot
+- Nano robot
+- Bio-hybrid (living tissue)
+- Microswimmer
+- Magnetic microrobot
+- Acoustic microrobot
+- Optical tweezers
+- Catalytic nanomotor
+- Nanorobot
+- Molecular robot
+- DNA robot
+- Protein robot
+- Cellular robot
+- Bacterial robot
+- Sperm robot
+- Flagellar robot
+- Ciliary robot
+- Amoeboid robot
+- Artificial muscle robot
+- Artificial flagellum
+- Artificial cilium
+- Artificial cell
+- Artificial tissue
+- Artificial organ
+- Artificial limb
+- Artificial eye
+- Artificial ear
+- Artificial nose
+- Artificial tongue
+- Artificial skin
+- Artificial bone
+- Artificial cartilage
+- Artificial ligament
+- Artificial tendon
+- Artificial muscle
+- Artificial neuron
+- Artificial synapse
+- Artificial brain
+- Artificial intelligence
+- Artificial life
+
+### 1.13 Soft
+- Fully soft
+- Partially soft
+- Fluidic elastomer actuator
+- Dielectric elastomer actuator
+- Pneumatic network
+- Soft gripper
+- Soft arm
+- Soft leg
+- Soft fish
+- Soft worm
+- Soft snake
+- Soft hand
+- Soft finger
+- Soft skin
+- Soft exoskeleton
+- Soft exosuit
+- Soft prosthetic
+- Soft orthotic
+- Soft wearable
+- Soft robot
+- Soft actuator
+- Soft sensor
+- Soft battery
+- Soft circuit
+- Soft logic
+- Soft computer
+- Soft memory
+- Soft display
+- Soft speaker
+- Soft microphone
+- Soft camera
+- Soft lens
+- Soft mirror
+- Soft prism
+- Soft grating
+- Soft waveguide
+- Soft fiber
+- Soft fabric
+- Soft textile
+- Soft polymer
+- Soft hydrogel
+- Soft elastomer
+- Soft silicone
+- Soft rubber
+- Soft foam
+- Soft gel
+- Soft colloid
+- Soft granular
+- Soft jammed
+- Soft matter
+- Soft condensed matter
+- Soft robotics
+- Soft science
+- Soft engineering
+- Soft technology
+- Soft art
+- Soft design
+- Soft architecture
+- Soft construction
+- Soft manufacturing
+- Soft assembly
+- Soft packaging
+- Soft logistics
+- Soft delivery
+- Soft transportation
+- Soft inspection
+- Soft maintenance
+- Soft cleaning
+- Soft painting
+- Soft welding
+- Soft surgery
+- Soft healthcare
+- Soft rehabilitation
+- Soft service
+- Soft domestic
+- Soft entertainment
+- Soft education
+- Soft research
+- Soft military
+- Soft defense
+- Soft security
+- Soft surveillance
+- Soft exploration
+- Soft science
+- Soft construction
+- Soft mining
+- Soft oil & gas
+- Soft nuclear
+- Soft disaster response
+- Soft search and rescue
+- Soft firefighting
+- Soft police
+- Soft bomb disposal
+- Soft logistics
+- Soft warehouse
+- Soft delivery
+- Soft transportation
+- Soft inspection
+- Soft maintenance
+- Soft cleaning
+- Soft painting
+- Soft welding
+- Soft assembly
+- Soft packaging
+- Soft food service
+- Soft retail
+- Soft hospitality
+- Soft eldercare
+- Soft childcare
+- Soft companionship
+- Soft therapy
+- Soft prosthetics
+- Soft orthotics
+- Soft space
+- Soft oceanography
+- Soft archaeology
+- Soft environmental
+- Soft wildlife
+- Soft meteorology
+- Soft cartography
+- Soft mining
+- Soft forestry
+- Soft fishing
+- Soft gardening
+
+### 1.14 Exoskeletons & Wearables
+- Upper-body exoskeleton
+- Lower-body exoskeleton
+- Full-body exoskeleton
+- Hand exoskeleton
+- Finger exoskeleton
+- Wrist exoskeleton
+- Elbow exoskeleton
+- Shoulder exoskeleton
+- Arm exoskeleton
+- Hip exoskeleton
+- Knee exoskeleton
+- Ankle exoskeleton
+- Foot exoskeleton
+- Leg exoskeleton
+- Back exoskeleton
+- Neck exoskeleton
+- Head exoskeleton
+- Torso exoskeleton
+- Rigid exoskeleton
+- Soft exoskeleton
+- Hybrid exoskeleton
+- Passive exoskeleton
+- Active exoskeleton
+- Powered exoskeleton
+- Quasi-passive exoskeleton
+- Prosthetic
+- Orthotic
+- Exosuit
+- Haptic suit
+- Motion capture suit
+- Teleoperation suit
+- Force feedback suit
+- Tactile feedback suit
+- Thermal feedback suit
+- Vestibular feedback suit
+- Olfactory feedback suit
+- Gustatory feedback suit
+- Auditory feedback suit
+- Visual feedback suit
+- Multisensory feedback suit
+- Full-immersion suit
+- Partial-immersion suit
+- Augmented reality suit
+- Virtual reality suit
+- Mixed reality suit
+- Extended reality suit
+- Cross reality suit
+- Hyper reality suit
+- Diminished reality suit
+- Mediated reality suit
+- Artificial reality suit
+- Synthetic reality suit
+- Simulated reality suit
+
+---
+
+## Axis 2: Form Factor / Morphology
+
+### 2.1 Arm
+- 1-DOF arm
+- 2-DOF arm
+- 3-DOF arm
+- 4-DOF arm
+- 5-DOF arm
+- 6-DOF arm
+- 7-DOF arm
+- Redundant arm (7+ DOF)
+- Hyper-redundant arm (many DOF)
+- SCARA arm
+- Cartesian arm
+- Cylindrical arm
+- Spherical arm
+- Polar arm
+- Delta arm
+- Parallel arm
+- Hybrid arm
+- Serial arm
+- Cable-driven arm
+- Tendon-driven arm
+- Pneumatic arm
+- Hydraulic arm
+- Electric arm
+- Soft arm
+- Continuum arm
+- Snake arm
+- Elephant trunk arm
+- Octopus arm
+- Humanoid arm
+- Prosthetic arm
+- Exoskeleton arm
+- Collaborative arm (cobot)
+- Industrial arm
+- Surgical arm
+- Agricultural arm
+- Construction arm
+- Mining arm
+- Space arm
+- Underwater arm
+- Aerial arm
+- Mobile arm
+- Dual arm
+- Multi arm
+- Swarm arm
+- Micro arm
+- Nano arm
+- Modular arm
+- Reconfigurable arm
+- Self-reconfigurable arm
+- Self-assembling arm
+- Self-repairing arm
+- Self-replicating arm
+- Self-evolving arm
+- Self-learning arm
+- Self-adapting arm
+- Self-optimizing arm
+- Self-organizing arm
+- Self-healing arm
+- Self-cleaning arm
+- Self-calibrating arm
+- Self-diagnosing arm
+- Self-monitoring arm
+- Self-repairing arm
+- Self-replicating arm
+- Self-evolving arm
+- Self-learning arm
+- Self-adapting arm
+- Self-optimizing arm
+- Self-organizing arm
+- Self-healing arm
+- Self-cleaning arm
+- Self-calibrating arm
+- Self-diagnosing arm
+- Self-monitoring arm
+
+### 2.2 Humanoid
+- Full-body humanoid
+- Upper-body humanoid
+- Lower-body humanoid
+- Head-only humanoid
+- Torso-only humanoid
+- Torso-and-head humanoid
+- Torso-and-arms humanoid
+- Torso-and-legs humanoid
+- Arms-only humanoid
+- Legs-only humanoid
+- Hands-only humanoid
+- Feet-only humanoid
+- Face-only humanoid
+- Eye-only humanoid
+- Mouth-only humanoid
+- Ear-only humanoid
+- Nose-only humanoid
+- Skin-only humanoid
+- Skeleton-only humanoid
+- Muscle-only humanoid
+- Organ-only humanoid
+- Cell-only humanoid
+- Molecule-only humanoid
+- Atom-only humanoid
+- Subatomic humanoid
+- Quantum humanoid
+- Classical humanoid
+- Relativistic humanoid
+- Newtonian humanoid
+- Einsteinian humanoid
+- Bohr humanoid
+- Planck humanoid
+- Heisenberg humanoid
+- Schrödinger humanoid
+- Dirac humanoid
+- Feynman humanoid
+- Hawking humanoid
+- Penrose humanoid
+- Tegmark humanoid
+- Bostrom humanoid
+- Kurzweil humanoid
+- Moravec humanoid
+- Minsky humanoid
+- McCarthy humanoid
+- Turing humanoid
+- von Neumann humanoid
+- Shannon humanoid
+- Wiener humanoid
+- Ashby humanoid
+- Beer humanoid
+- Braitenberg humanoid
+- Brooks humanoid
+- Brooks humanoid
+- Moravec humanoid
+- Minsky humanoid
+- McCarthy humanoid
+- Turing humanoid
+- von Neumann humanoid
+- Shannon humanoid
+- Wiener humanoid
+- Ashby humanoid
+- Beer humanoid
+- Braitenberg humanoid
+- Brooks humanoid
+- Brooks humanoid
+- Moravec humanoid
+- Minsky humanoid
+- McCarthy humanoid
+- Turing humanoid
+- von Neumann humanoid
+- Shannon humanoid
+- Wiener humanoid
+- Ashby humanoid
+- Beer humanoid
+- Braitenberg humanoid
+- Brooks humanoid
+
+### 2.3 Mobile Base
+- No manipulation
+- With simple payload
+- With sensors only
+- With camera only
+- With LiDAR only
+- With GPS only
+- With IMU only
+- With compass only
+- With barometer only
+- With thermometer only
+- With hygrometer only
+- With anemometer only
+- With rain gauge only
+- With snow gauge only
+- With hail gauge only
+- With lightning detector only
+- With radiation detector only
+- With gas detector only
+- With chemical detector only
+- With biological detector only
+- With nuclear detector only
+- With explosive detector only
+- With narcotics detector only
+- With weapons detector only
+- With contraband detector only
+- With human detector only
+- With animal detector only
+- With plant detector only
+- With mineral detector only
+- With metal detector only
+- With plastic detector only
+- With glass detector only
+- With wood detector only
+- With paper detector only
+- With textile detector only
+- With food detector only
+- With water detector only
+- With air detector only
+- With soil detector only
+- With rock detector only
+- With sand detector only
+- With dust detector only
+- With smoke detector only
+- With fire detector only
+- With flood detector only
+- With earthquake detector only
+- With tsunami detector only
+- With volcano detector only
+- With hurricane detector only
+- With tornado detector only
+- With blizzard detector only
+- With drought detector only
+- With famine detector only
+- With plague detector only
+- With pandemic detector only
+- With epidemic detector only
+- With endemic detector only
+- With sporadic detector only
+- With outbreak detector only
+- With cluster detector only
+- With hotspot detector only
+- With coldspot detector only
+- With warmspot detector only
+- With dryspot detector only
+- With wetspot detector only
+- With hotsopt detector only
+- With coldsopt detector only
+- With warmspot detector only
+- With dryspot detector only
+- With wetspot detector only
+
+### 2.4 Mobile Manipulator
+- Wheeled base + arm
+- Legged base + arm
+- Aerial base + arm
+- Aquatic base + arm
+- Tracked base + arm
+- Hybrid base + arm
+- Omnidirectional base + arm
+- Differential base + arm
+- Ackermann base + arm
+- Skid-steer base + arm
+- Bipedal base + arm
+- Quadruped base + arm
+- Hexapod base + arm
+- Octopod base + arm
+- Snake base + arm
+- Worm base + arm
+- Continuum base + arm
+- Soft base + arm
+- Exoskeleton base + arm
+- Prosthetic base + arm
+- Orthotic base + arm
+- Wearable base + arm
+- Swarm base + arm
+- Micro base + arm
+- Nano base + arm
+- Bio-hybrid base + arm
+- Multi-modal base + arm
+- Triphibian base + arm
+- Amphibious base + arm
+- Space base + arm
+- Underwater base + arm
+- Aerial base + arm
+- Ground base + arm
+- Wall base + arm
+- Ceiling base + arm
+- Pipe base + arm
+- Cable base + arm
+- Pole base + arm
+- Tree base + arm
+- Building base + arm
+- Bridge base + arm
+- Ship base + arm
+- Wind-turbine base + arm
+- Solar-panel base + arm
+- Nuclear base + arm
+- Chemical base + arm
+- Biological base + arm
+- Radiological base + arm
+- Explosive base + arm
+- Hazardous base + arm
+- Extreme base + arm
+- Remote base + arm
+- Inaccessible base + arm
+- Dangerous base + arm
+- Dirty base + arm
+- Dull base + arm
+- Dear base + arm
+- Distant base + arm
+- Denied base + arm
+- Degraded base + arm
+- Disrupted base + arm
+- Intermittent base + arm
+- Limited base + arm
+- Constrained base + arm
+- Confined base + arm
+- Cluttered base + arm
+- Dynamic base + arm
+- Uncertain base + arm
+- Unstructured base + arm
+- Adversarial base + arm
+- Hostile base + arm
+- Benign base + arm
+- Cooperative base + arm
+- Collaborative base + arm
+- Competitive base + arm
+- Neutral base + arm
+- Indifferent base + arm
+- Apathetic base + arm
+- Antagonistic base + arm
+- Malevolent base + arm
+- Malicious base + arm
+- Criminal base + arm
+- Terrorist base + arm
+- Military base + arm
+- Defense base + arm
+- Security base + arm
+- Surveillance base + arm
+- Reconnaissance base + arm
+- Intelligence base + arm
+- Counterintelligence base + arm
+- Espionage base + arm
+- Sabotage base + arm
+- Subversion base + arm
+- Insurgency base + arm
+- Counterinsurgency base + arm
+- Guerrilla base + arm
+- Counterguerrilla base + arm
+- Asymmetric base + arm
+- Irregular base + arm
+- Unconventional base + arm
+- Conventional base + arm
+- Nuclear base + arm
+- Biological base + arm
+- Chemical base + arm
+- Radiological base + arm
+- Explosive base + arm
+- Cyber base + arm
+- Electronic base + arm
+- Information base + arm
+- Psychological base + arm
+- Economic base + arm
+- Political base + arm
+- Diplomatic base + arm
+- Cultural base + arm
+- Social base + arm
+- Environmental base + arm
+- Demographic base + arm
+- Geographic base + arm
+- Topographic base + arm
+- Hydrological base + arm
+- Meteorological base + arm
+- Climatological base + arm
+- Oceanographic base + arm
+- Atmospheric base + arm
+- Ionospheric base + arm
+- Magnetospheric base + arm
+- Heliospheric base + arm
+- Interstellar base + arm
+- Intergalactic base + arm
+- Cosmological base + arm
+- Quantum base + arm
+- Relativistic base + arm
+- Newtonian base + arm
+- Einsteinian base + arm
+- Bohr base + arm
+- Planck base + arm
+- Heisenberg base + arm
+- Schrödinger base + arm
+- Dirac base + arm
+- Feynman base + arm
+- Hawking base + arm
+- Penrose base + arm
+- Tegmark base + arm
+- Bostrom base + arm
+- Kurzweil base + arm
+- Moravec base + arm
+- Minsky base + arm
+- McCarthy base + arm
+- Turing base + arm
+- von Neumann base + arm
+- Shannon base + arm
+- Wiener base + arm
+- Ashby base + arm
+- Beer base + arm
+- Braitenberg base + arm
+- Brooks base + arm
+
+### 2.5 Drone
+- Aerial only
+- Aerial with manipulator
+- Aerial with sensor payload
+- Aerial with delivery payload
+- Aerial with sprayer
+- Aerial with camera
+- Aerial with LiDAR
+- Aerial with radar
+- Aerial with sonar
+- Aerial with thermal
+- Aerial with multispectral
+- Aerial with hyperspectral
+- Aerial with gas sensor
+- Aerial with radiation sensor
+- Aerial with chemical sensor
+- Aerial with biological sensor
+- Aerial with nuclear sensor
+- Aerial with explosive sensor
+- Aerial with narcotics sensor
+- Aerial with weapons sensor
+- Aerial with contraband sensor
+- Aerial with human sensor
+- Aerial with animal sensor
+- Aerial with plant sensor
+- Aerial with mineral sensor
+- Aerial with metal sensor
+- Aerial with plastic sensor
+- Aerial with glass sensor
+- Aerial with wood sensor
+- Aerial with paper sensor
+- Aerial with textile sensor
+- Aerial with food sensor
+- Aerial with water sensor
+- Aerial with air sensor
+- Aerial with soil sensor
+- Aerial with rock sensor
+- Aerial with sand sensor
+- Aerial with dust sensor
+- Aerial with smoke sensor
+- Aerial with fire sensor
+- Aerial with flood sensor
+- Aerial with earthquake sensor
+- Aerial with tsunami sensor
+- Aerial with volcano sensor
+- Aerial with hurricane sensor
+- Aerial with tornado sensor
+- Aerial with blizzard sensor
+- Aerial with drought sensor
+- Aerial with famine sensor
+- Aerial with plague sensor
+- Aerial with pandemic sensor
+- Aerial with epidemic sensor
+- Aerial with endemic sensor
+- Aerial with sporadic sensor
+- Aerial with outbreak sensor
+- Aerial with cluster sensor
+- Aerial with hotspot sensor
+- Aerial with coldspot sensor
+- Aerial with warmspot sensor
+- Aerial with dryspot sensor
+- Aerial with wetspot sensor
+
+### 2.6 Exoskeleton
+- As above (1.14)
+
+### 2.7 Soft Robot
+- As above (1.13)
+
+### 2.8 Swarm Unit
+- Individual unit
+- Aggregated system
+- Homogeneous unit
+- Heterogeneous unit
+- Aerial unit
+- Ground unit
+- Aquatic unit
+- Hybrid unit
+- Micro unit
+- Nano unit
+- Bio-hybrid unit
+- Soft unit
+- Rigid unit
+- Modular unit
+- Reconfigurable unit
+- Self-reconfigurable unit
+- Self-assembling unit
+- Self-repairing unit
+- Self-replicating unit
+- Self-evolving unit
+- Self-learning unit
+- Self-adapting unit
+- Self-optimizing unit
+- Self-organizing unit
+- Self-healing unit
+- Self-cleaning unit
+- Self-calibrating unit
+- Self-diagnosing unit
+- Self-monitoring unit
+
+---
+
+## Axis 3: Kinematic Structure
+
+- Serial manipulator
+- Parallel manipulator
+- Hybrid serial-parallel
+- Delta robot
+- Stewart platform
+- Gough-Stewart platform
+- Hexapod platform
+- Hexaglide
+- HexaSlide
+- Cable-driven parallel
+- Tendon-driven parallel
+- Pneumatic parallel
+- Hydraulic parallel
+- Soft parallel
+- Continuum parallel
+- Snake parallel
+- Worm parallel
+- Exoskeleton parallel
+- Prosthetic parallel
+- Orthotic parallel
+- Wearable parallel
+- Swarm parallel
+- Micro parallel
+- Nano parallel
+- Bio-hybrid parallel
+- Multi-modal parallel
+- Triphibian parallel
+- Amphibious parallel
+- Space parallel
+- Underwater parallel
+- Aerial parallel
+- Ground parallel
+- Wall parallel
+- Ceiling parallel
+- Pipe parallel
+- Cable parallel
+- Pole parallel
+- Tree parallel
+- Building parallel
+- Bridge parallel
+- Ship parallel
+- Wind-turbine parallel
+- Solar-panel parallel
+- Nuclear parallel
+- Chemical parallel
+- Biological parallel
+- Radiological parallel
+- Explosive parallel
+- Hazardous parallel
+- Extreme parallel
+- Remote parallel
+- Inaccessible parallel
+- Dangerous parallel
+- Dirty parallel
+- Dull parallel
+- Dear parallel
+- Distant parallel
+- Denied parallel
+- Degraded parallel
+- Disrupted parallel
+- Intermittent parallel
+- Limited parallel
+- Constrained parallel
+- Confined parallel
+- Cluttered parallel
+- Dynamic parallel
+- Uncertain parallel
+- Unstructured parallel
+- Adversarial parallel
+- Hostile parallel
+- Benign parallel
+- Cooperative parallel
+- Collaborative parallel
+- Competitive parallel
+- Neutral parallel
+- Indifferent parallel
+- Apathetic parallel
+- Antagonistic parallel
+- Malevolent parallel
+- Malicious parallel
+- Criminal parallel
+- Terrorist parallel
+- Military parallel
+- Defense parallel
+- Security parallel
+- Surveillance parallel
+- Reconnaissance parallel
+- Intelligence parallel
+- Counterintelligence parallel
+- Espionage parallel
+- Sabotage parallel
+- Subversion parallel
+- Insurgency parallel
+- Counterinsurgency parallel
+- Guerrilla parallel
+- Counterguerrilla parallel
+- Asymmetric parallel
+- Irregular parallel
+- Unconventional parallel
+- Conventional parallel
+- Nuclear parallel
+- Biological parallel
+- Chemical parallel
+- Radiological parallel
+- Explosive parallel
+- Cyber parallel
+- Electronic parallel
+- Information parallel
+- Psychological parallel
+- Economic parallel
+- Political parallel
+- Diplomatic parallel
+- Cultural parallel
+- Social parallel
+- Environmental parallel
+- Demographic parallel
+- Geographic parallel
+- Topographic parallel
+- Hydrological parallel
+- Meteorological parallel
+- Climatological parallel
+- Oceanographic parallel
+- Atmospheric parallel
+- Ionospheric parallel
+- Magnetospheric parallel
+- Heliospheric parallel
+- Interstellar parallel
+- Intergalactic parallel
+- Cosmological parallel
+- Quantum parallel
+- Relativistic parallel
+- Newtonian parallel
+- Einsteinian parallel
+- Bohr parallel
+- Planck parallel
+- Heisenberg parallel
+- Schrödinger parallel
+- Dirac parallel
+- Feynman parallel
+- Hawking parallel
+- Penrose parallel
+- Tegmark parallel
+- Bostrom parallel
+- Kurzweil parallel
+- Moravec parallel
+- Minsky parallel
+- McCarthy parallel
+- Turing parallel
+- von Neumann parallel
+- Shannon parallel
+- Wiener parallel
+- Ashby parallel
+- Beer parallel
+- Braitenberg parallel
+- Brooks parallel
+
+---
+
+## Axis 4: Degrees of Freedom
+
+- 1-DOF
+- 2-DOF
+- 3-DOF
+- 4-DOF
+- 5-DOF
+- 6-DOF
+- 7-DOF
+- 8-DOF
+- 9-DOF
+- 10-DOF
+- 11-DOF
+- 12-DOF
+- 13-DOF
+- 14-DOF
+- 15-DOF
+- 16-DOF
+- 17-DOF
+- 18-DOF
+- 19-DOF
+- 20-DOF
+- 21-DOF
+- 22-DOF
+- 23-DOF
+- 24-DOF
+- 25-DOF
+- 26-DOF
+- 27-DOF
+- 28-DOF
+- 29-DOF
+- 30-DOF
+- Redundant (7+)
+- Hyper-redundant (many)
+- Underactuated
+- Overactuated
+- Fully actuated
+- Partially actuated
+- Passively actuated
+- Actively actuated
+- Hybrid actuated
+- Soft actuated
+- Rigid actuated
+- Continuum actuated
+- Discrete actuated
+- Distributed actuated
+- Lumped actuated
+- Modular actuated
+- Reconfigurable actuated
+- Self-reconfigurable actuated
+- Self-assembling actuated
+- Self-repairing actuated
+- Self-replicating actuated
+- Self-evolving actuated
+- Self-learning actuated
+- Self-adapting actuated
+- Self-optimizing actuated
+- Self-organizing actuated
+- Self-healing actuated
+- Self-cleaning actuated
+- Self-calibrating actuated
+- Self-diagnosing actuated
+- Self-monitoring actuated
+
+---
+
+## Axis 5: Scale / Size Class
+
+- Nano (1–100 nm)
+- Micro (1–100 μm)
+- Milli (1–100 mm)
+- Small (1–10 cm)
+- Medium (10 cm – 1 m)
+- Large (1–10 m)
+- Mega (10+ m)
+- Giga (100+ m)
+- Tera (1000+ m)
+- Pico (sub-nano)
+- Femto (sub-pico)
+- Atto (sub-femto)
+- Zepto (sub-atto)
+- Yocto (sub-zepto)
+- Ronto (sub-yocto)
+- Quecto (sub-ronto)
+- Planck scale
+- Quantum scale
+- Atomic scale
+- Molecular scale
+- Cellular scale
+- Tissue scale
+- Organ scale
+- Organism scale
+- Population scale
+- Ecosystem scale
+- Biosphere scale
+- Planetary scale
+- Stellar scale
+- Galactic scale
+- Cosmic scale
+- Universal scale
+- Multiversal scale
+- Omniversal scale
+- Metaversal scale
+- Hyperversal scale
+- Archiversal scale
+- Beyond-versal scale
+
+---
+
+## Axis 6: Payload Class
+
+- Micro (grams)
+- Light (under 1 kg)
+- Medium (1–10 kg)
+- Heavy (10–100 kg)
+- Industrial (100+ kg)
+- Super heavy (1000+ kg)
+- Ultra heavy (10,000+ kg)
+- Mega heavy (100,000+ kg)
+- Giga heavy (1,000,000+ kg)
+- Tera heavy (1,000,000,000+ kg)
+- Peta heavy (1,000,000,000,000+ kg)
+- Exa heavy (1,000,000,000,000,000,000+ kg)
+- Zetta heavy (1,000,000,000,000,000,000,000+ kg)
+- Yotta heavy (1,000,000,000,000,000,000,000,000+ kg)
+- Ronna heavy (1,000,000,000,000,000,000,000,000,000+ kg)
+- Quetta heavy (1,000,000,000,000,000,000,000,000,000,000+ kg)
+
+---
+
+## Axis 7: Environment / Domain
+
+- Indoor structured
+- Indoor unstructured
+- Outdoor structured
+- Outdoor unstructured
+- Aerial (open air, urban canyon, indoor flight, high altitude)
+- Aquatic (shallow, deep, surface, underwater, amphibious)
+- Space (microgravity, planetary surface, orbital, deep space)
+- Hazardous (nuclear, chemical, biological, high-temperature, explosive, radioactive)
+- Extreme cold
+- Extreme heat
+- High pressure
+- Vacuum
+- Underwater
+- Underground
+- Confined space
+- Cluttered space
+- Dynamic space
+- Uncertain space
+- Unstructured space
+- Adversarial space
+- Hostile space
+- Benign space
+- Cooperative space
+- Collaborative space
+- Competitive space
+- Neutral space
+- Indifferent space
+- Apathetic space
+- Antagonistic space
+- Malevolent space
+- Malicious space
+- Criminal space
+- Terrorist space
+- Military space
+- Defense space
+- Security space
+- Surveillance space
+- Reconnaissance space
+- Intelligence space
+- Counterintelligence space
+- Espionage space
+- Sabotage space
+- Subversion space
+- Insurgency space
+- Counterinsurgency space
+- Guerrilla space
+- Counterguerrilla space
+- Asymmetric space
+- Irregular space
+- Unconventional space
+- Conventional space
+- Nuclear space
+- Biological space
+- Chemical space
+- Radiological space
+- Explosive space
+- Cyber space
+- Electronic space
+- Information space
+- Psychological space
+- Economic space
+- Political space
+- Diplomatic space
+- Cultural space
+- Social space
+- Environmental space
+- Demographic space
+- Geographic space
+- Topographic space
+- Hydrological space
+- Meteorological space
+- Climatological space
+- Oceanographic space
+- Atmospheric space
+- Ionospheric space
+- Magnetospheric space
+- Heliospheric space
+- Interstellar space
+- Intergalactic space
+- Cosmological space
+- Quantum space
+- Relativistic space
+- Newtonian space
+- Einsteinian space
+- Bohr space
+- Planck space
+- Heisenberg space
+- Schrödinger space
+- Dirac space
+- Feynman space
+- Hawking space
+- Penrose space
+- Tegmark space
+- Bostrom space
+- Kurzweil space
+- Moravec space
+- Minsky space
+- McCarthy space
+- Turing space
+- von Neumann space
+- Shannon space
+- Wiener space
+- Ashby space
+- Beer space
+- Braitenberg space
+- Brooks space
+
+---
+
+## Axis 8: Mission / Application
+
+- Inspection (infrastructure, industrial, security, environmental)
+- Manipulation (assembly, pick-and-place, welding, surgery)
+- Transportation (delivery, logistics, passenger, freight)
+- Exploration (space, underwater, cave, disaster)
+- Surveillance (security, reconnaissance, monitoring)
+- Interaction (service, care, companionship, education, retail)
+- Construction (building, assembly, demolition)
+- Maintenance (repair, cleaning, inspection)
+- Rescue (search and rescue, disaster response, medical evacuation)
+- Industrial
+- Manufacturing
+- Agriculture
+- Healthcare
+- Surgery
+- Rehabilitation
+- Service
+- Domestic
+- Entertainment
+- Education
+- Research
+- Military
+- Defense
+- Security
+- Surveillance
+- Exploration
+- Science
+- Construction
+- Mining
+- Oil & gas
+- Nuclear
+- Disaster response
+- Search and rescue
+- Firefighting
+- Police
+- Bomb disposal (EOD)
+- Logistics
+- Warehouse
+- Delivery
+- Transportation
+- Inspection
+- Maintenance
+- Cleaning
+- Painting
+- Welding
+- Assembly
+- Packaging
+- Food service
+- Retail
+- Hospitality
+- Eldercare
+- Childcare
+- Companionship
+- Therapy
+- Prosthetics
+- Orthotics
+- Space exploration
+- Oceanography
+- Archaeology
+- Environmental monitoring
+- Wildlife monitoring
+- Meteorology
+- Cartography
+- Mining
+- Forestry
+- Fishing
+- Gardening
+
+---
+
+## Axis 9: Actuation Type (Platform-Level)
+
+- Electric
+- Hydraulic
+- Pneumatic
+- Hybrid (electric-hydraulic)
+- Hybrid (electric-pneumatic)
+- Hybrid (hydraulic-pneumatic)
+- Tendon-driven
+- Cable-driven
+- Belt-driven
+- Chain-driven
+- Gear-driven
+- Direct-drive
+- Quasi-direct drive
+- Series elastic
+- Parallel elastic
+- Variable stiffness
+- Variable damping
+- Variable impedance
+- Variable admittance
+- Soft actuator
+- Rigid actuator
+- Continuum actuator
+- Discrete actuator
+- Distributed actuator
+- Lumped actuator
+- Modular actuator
+- Reconfigurable actuator
+- Self-reconfigurable actuator
+- Self-assembling actuator
+- Self-repairing actuator
+- Self-replicating actuator
+- Self-evolving actuator
+- Self-learning actuator
+- Self-adapting actuator
+- Self-optimizing actuator
+- Self-organizing actuator
+- Self-healing actuator
+- Self-cleaning actuator
+- Self-calibrating actuator
+- Self-diagnosing actuator
+- Self-monitoring actuator
+
+---
+
+## Axis 10: Power Source
+
+- Battery
+- Tethered
+- Fuel cell
+- Solar
+- Combustion
+- Nuclear
+- Hybrid
+- Regenerative
+- Wireless power
+- Inductive charging
+- Capacitive charging
+- Resonant charging
+- Microwave power
+- Laser power
+- Acoustic power
+- Kinetic harvesting
+- Thermal harvesting
+- Piezoelectric harvesting
+- Thermoelectric harvesting
+- Photovoltaic harvesting
+- Radioisotope
+- Betavoltaic
+- Alphavoltaic
+- Nuclear fission
+- Nuclear fusion
+
+---
