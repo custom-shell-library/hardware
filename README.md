@@ -1,4 +1,4 @@
-# Exhaustive Hardware Categorization — Robot Platform Types
+# Hardware Types
 
 This is a complete taxonomy of every robot body type and platform category, organized across many axes.
 
