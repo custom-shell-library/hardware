@@ -2,7 +2,6 @@
 
 This is a complete taxonomy of every robot body type, platform, sensor, compute module, and hardware category, organized across many axes.
 
-> Note: Exact duplicate lines from the original (copy-paste artifacts in the Arm, Humanoid, Mobile Base, Mobile Manipulator, Drone, and Parallel sections) have been collapsed into single entries. No unique category, item, or concept has been removed — only literal repeats of the same string. Everything else is preserved and expanded.
 
 ---
 
