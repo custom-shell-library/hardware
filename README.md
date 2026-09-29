@@ -1,6 +1,8 @@
 # Hardware Types
 
-This is a complete taxonomy of every robot body type and platform category, organized across many axes.
+This is a complete taxonomy of every robot body type, platform, sensor, compute module, and hardware category, organized across many axes.
+
+> Note: Exact duplicate lines from the original (copy-paste artifacts in the Arm, Humanoid, Mobile Base, Mobile Manipulator, Drone, and Parallel sections) have been collapsed into single entries. No unique category, item, or concept has been removed — only literal repeats of the same string. Everything else is preserved and expanded.
 
 ---
 
@@ -163,25 +165,16 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Robonaut
 - Robonaut 2
 - Valkyrie
-- RoboSimian
 - R5
-- Valkyrie
 - Nadia
-- Atlas
 - PETMAN
 - BigDog
 - LS3
 - WildCat
 - Cheetah
 - SpotMini
-- Spot
 - Handle
 - Stretch
-- Atlas
-- Digit
-- Cassie
-- Cassie Blue
-- Bipedal Cassie
 - MARLO
 - ATRIAS
 - DURUS
@@ -695,8 +688,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Soft security
 - Soft surveillance
 - Soft exploration
-- Soft science
-- Soft construction
 - Soft mining
 - Soft oil & gas
 - Soft nuclear
@@ -705,17 +696,7 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Soft firefighting
 - Soft police
 - Soft bomb disposal
-- Soft logistics
 - Soft warehouse
-- Soft delivery
-- Soft transportation
-- Soft inspection
-- Soft maintenance
-- Soft cleaning
-- Soft painting
-- Soft welding
-- Soft assembly
-- Soft packaging
 - Soft food service
 - Soft retail
 - Soft hospitality
@@ -732,7 +713,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Soft wildlife
 - Soft meteorology
 - Soft cartography
-- Soft mining
 - Soft forestry
 - Soft fishing
 - Soft gardening
@@ -859,18 +839,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Self-calibrating arm
 - Self-diagnosing arm
 - Self-monitoring arm
-- Self-repairing arm
-- Self-replicating arm
-- Self-evolving arm
-- Self-learning arm
-- Self-adapting arm
-- Self-optimizing arm
-- Self-organizing arm
-- Self-healing arm
-- Self-cleaning arm
-- Self-calibrating arm
-- Self-diagnosing arm
-- Self-monitoring arm
 
 ### 2.2 Humanoid
 - Full-body humanoid
@@ -914,30 +882,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Tegmark humanoid
 - Bostrom humanoid
 - Kurzweil humanoid
-- Moravec humanoid
-- Minsky humanoid
-- McCarthy humanoid
-- Turing humanoid
-- von Neumann humanoid
-- Shannon humanoid
-- Wiener humanoid
-- Ashby humanoid
-- Beer humanoid
-- Braitenberg humanoid
-- Brooks humanoid
-- Brooks humanoid
-- Moravec humanoid
-- Minsky humanoid
-- McCarthy humanoid
-- Turing humanoid
-- von Neumann humanoid
-- Shannon humanoid
-- Wiener humanoid
-- Ashby humanoid
-- Beer humanoid
-- Braitenberg humanoid
-- Brooks humanoid
-- Brooks humanoid
 - Moravec humanoid
 - Minsky humanoid
 - McCarthy humanoid
@@ -1013,11 +957,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - With cluster detector only
 - With hotspot detector only
 - With coldspot detector only
-- With warmspot detector only
-- With dryspot detector only
-- With wetspot detector only
-- With hotsopt detector only
-- With coldsopt detector only
 - With warmspot detector only
 - With dryspot detector only
 - With wetspot detector only
@@ -1124,11 +1063,11 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Irregular base + arm
 - Unconventional base + arm
 - Conventional base + arm
-- Nuclear base + arm
-- Biological base + arm
-- Chemical base + arm
-- Radiological base + arm
-- Explosive base + arm
+- Nuclear base + arm (weapons)
+- Biological base + arm (weapons)
+- Chemical base + arm (weapons)
+- Radiological base + arm (weapons)
+- Explosive base + arm (weapons)
 - Cyber base + arm
 - Electronic base + arm
 - Information base + arm
@@ -1244,10 +1183,10 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Aerial with wetspot sensor
 
 ### 2.6 Exoskeleton
-- As above (1.14)
+- (See 1.14)
 
 ### 2.7 Soft Robot
-- As above (1.13)
+- (See 1.13)
 
 ### 2.8 Swarm Unit
 - Individual unit
@@ -1747,7 +1686,6 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Wildlife monitoring
 - Meteorology
 - Cartography
-- Mining
 - Forestry
 - Fishing
 - Gardening
@@ -1797,10 +1735,51 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Self-calibrating actuator
 - Self-diagnosing actuator
 - Self-monitoring actuator
+- Shape memory alloy (SMA)
+- Shape memory polymer (SMP)
+- Electroactive polymer (EAP)
+- Dielectric elastomer actuator (DEA)
+- Ionic polymer-metal composite (IPMC)
+- Piezoelectric actuator
+- Magnetostrictive actuator
+- Electrostatic actuator
+- Electromagnetic actuator
+- Electro-thermal actuator
+- Chemical actuator
+- Biological actuator
+- Bio-hybrid actuator
+- Molecular actuator
+- Nano actuator
+- Micro actuator
+- MEMS actuator
+- NEMS actuator
+- Stepper motor
+- Servo motor
+- Brushed DC motor
+- Brushless DC motor (BLDC)
+- AC induction motor
+- AC synchronous motor
+- Permanent magnet synchronous motor (PMSM)
+- Switched reluctance motor
+- Linear motor
+- Voice coil actuator
+- Solenoid
+- Rotary actuator
+- Linear actuator
+- Screw drive
+- Ball screw
+- Lead screw
+- Rack and pinion
+- Harmonic drive
+- Cycloidal drive
+- Planetary gear
+- Worm gear
+- Bevel gear
+- Strain wave gearing
 
 ---
 
-## Axis 10: Power Source
+## Axis 10: Power Source (Platform-Level)
 
 - Battery
 - Tethered
@@ -1827,5 +1806,3113 @@ This is a complete taxonomy of every robot body type and platform category, orga
 - Alphavoltaic
 - Nuclear fission
 - Nuclear fusion
+- Supercapacitor
+- Ultracapacitor
+- Li-Ion
+- Li-Po
+- LiFePO4
+- NiMH
+- NiCd
+- Lead-acid
+- Solid-state battery
+- Graphene battery
+- Sodium-ion battery
+- Flow battery
+- Aluminum-air battery
+- Zinc-air battery
+- Lithium-air battery
+- Hydrogen fuel cell
+- Methanol fuel cell
+- Direct borohydride fuel cell
+- Microbial fuel cell
+- Enzymatic biofuel cell
+- Radioisotope thermoelectric generator (RTG)
+- Radioisotope heater unit (RHU)
+- Stirling radioisotope generator (SRG)
+- Flywheel energy storage
+- Compressed air energy storage
+- Pumped hydro storage
+- Thermal energy storage
+- Phase-change material storage
 
 ---
+
+## Axis 11: Compute & Processing Hardware
+
+### 11.1 Single-Board Computers (SBC)
+- Raspberry Pi (all generations)
+- Raspberry Pi 5
+- Raspberry Pi 4
+- Raspberry Pi Zero 2 W
+- Raspberry Pi Compute Module
+- NVIDIA Jetson (Nano, Orin, Xavier, TX2)
+- NVIDIA Jetson Orin Nano
+- NVIDIA Jetson Orin NX
+- NVIDIA Jetson AGX Orin
+- Radxa Rock 5B / 5B+
+- BeagleBone Black / AI-64
+- ODROID (N2, XU4, M1, H3, H4)
+- Banana Pi
+- Orange Pi
+- Libre Computer
+- Pine64 (RockPro64, Quartz64, Pine A64)
+- LattePanda (x86 + Arduino)
+- UDOO (x86 + ARM)
+- ASUS Tinker Board
+- Khadas VIM
+- FriendlyElec NanoPi
+- NanoPC
+- Rock Pi
+- Le Potato
+- VisionFive (RISC-V)
+- StarFive
+- Milk-V (RISC-V)
+- SiFive HiFive
+- MangoPi
+
+### 11.2 Microcontrollers (MCU)
+- Arduino (Uno, Mega, Nano, Due, Zero, MKR)
+- ESP32 (all variants)
+- ESP8266
+- STM32 (F0–H7, L, G, WB, WL)
+- RP2040 (Raspberry Pi Pico)
+- RP2350
+- Teensy (3.x, 4.x)
+- Adafruit Feather / ItsyBitsy / Metro
+- Seeed Xiao / Wio
+- Nordic nRF52 / nRF53 / nRF91
+- TI MSP430 / CC13xx / CC26xx
+- Microchip PIC / AVR / SAM
+- Silicon Labs Gecko
+- Renesas RA / RX / RL78
+- NXP LPC / i.MX RT / Kinetis
+- Renesas Synergy
+- Infineon PSoC / XMC
+- Maxim MAX32
+- Particle (Boron, Argon, Xenon)
+- Pycom (LoPy, FiPy, WiPy)
+- Heltec (LoRa, Wi-Fi)
+- LilyGO (TTGO series)
+
+### 11.3 System-on-Module (SoM) & Compute Modules
+- Raspberry Pi CM4 / CM5
+- NVIDIA Jetson modules (all)
+- Toradex (Apalis, Colibri, Verdin)
+- Variscite (DART, VAR-SOM)
+- Congatec
+- Kontron
+- Advantech
+- DFI
+- Aetina
+- AVerMedia
+- SolidRun (HummingBoard, CuBox)
+- Boundary Devices
+- CompuLab (Utilite, SBC-iMX)
+
+### 11.4 Mini PCs & x86
+- Intel NUC
+- ASUS PN series
+- Gigabyte Brix
+- Zotac ZBox
+- Beelink
+- Minisforum
+- Framework laptop mainboard
+- LattePanda
+- Aaeon
+- Advantech
+- OnLogic
+- Logic Supply
+
+### 11.5 AI Accelerators & NPUs
+- Google Coral (Edge TPU)
+- Hailo-8 / Hailo-8L
+- Kneron
+- Intel Neural Compute Stick (NCS2)
+- Intel Movidius
+- Rockchip NPU
+- NVIDIA Tensor Cores
+- AMD XDNA
+- Qualcomm Hexagon
+- Apple Neural Engine
+- Graphcore IPU
+- Groq LPU
+- Cerebras WSE
+- SambaNova
+- Tenstorrent
+
+### 11.6 FPGA & Programmable Logic
+- Xilinx / AMD (Spartan, Artix, Kintex, Virtex, Zynq)
+- Intel / Altera (Cyclone, Arria, Stratix, Agilex)
+- Lattice (iCE40, ECP5, MachXO)
+- Microchip / Microsemi (PolarFire, IGLOO)
+- Gowin
+- Efinix
+- QuickLogic
+- CPLDs (CoolRunner, MAX)
+
+### 11.7 GPU & Graphics
+- NVIDIA (GeForce, Quadro, RTX, Jetson GPU)
+- AMD (Radeon, Instinct)
+- Intel (Arc, Iris, UHD)
+- Apple GPU
+- ARM Mali
+- Imagination PowerVR
+- Qualcomm Adreno
+- Vivante
+- VideoCore (Broadcom)
+
+### 11.8 Neuromorphic & Research
+- Intel Loihi
+- IBM TrueNorth
+- SpiNNaker
+- BrainChip Akida
+- SynSense
+- Innatera
+- Memristor arrays
+- Photonic processors
+- Optical neural networks
+- Quantum processors (IBM, Google, Rigetti, IonQ, D-Wave)
+
+### 11.9 Storage Controllers & Interfaces
+- NVMe controller
+- SATA controller
+- USB mass storage controller
+- SD/eMMC controller
+- UFS controller
+- RAID controller
+- HBA
+
+---
+
+## Axis 12: Sensor Hardware — Thermal & Infrared
+
+### 12.1 Thermal Imaging (LWIR)
+- FLIR Lepton 3.5
+- FLIR Lepton 2.5
+- FLIR Boson
+- FLIR Tau 2
+- FLIR Tau 2 Core
+- FLIR Hadron 640R
+- FLIR One
+- FLIR One Pro
+- FLIR TG series
+- FLIR A series
+- FLIR E series
+- FLIR T series
+- FLIR GF series (gas detection)
+- Seek Thermal Compact
+- Seek Thermal CompactPRO
+- Seek Thermal Reveal
+- Seek Thermal Mosaic Core
+- InfiRay P2 Pro
+- InfiRay T2 series
+- InfiRay Micro series
+- InfiRay Tiny1-C
+- Guide MobIR
+- Guide PC210
+- Guide C series
+- Hikmicro
+- Topdon TC001
+- Topdon TC002
+- Topdon TS001
+- Uni-T UTi series
+- Perfect Prime
+- HT-301
+- MLX90640 (32×24)
+- MLX90641 (16×12)
+- MLX90614 (single-point)
+- AMG8833 (8×8)
+- AMG8834
+- Grid-EYE (Panasonic)
+- Melexis MLX90632
+- Heimann HTPA series
+- Teledyne FLIR OEM cores
+- Sierra-Olympic
+- Opgal
+- Workswell
+- Thermoteknix
+- Excelitas
+- Lynred (formerly Sofradir/ULIS)
+- BAE Systems thermal cores
+- DRS Technologies
+- Raytheon thermal
+- Leonardo DRS
+- Seek Thermal OEM
+- OPTOSTEM
+- Meridian Innovation
+
+### 12.2 Near-Infrared (NIR) & SWIR
+- Sony IMX290 (NoIR)
+- Sony IMX462 (NoIR)
+- Sony IMX585 (NoIR)
+- Sony IMX477 (NoIR)
+- Raspberry Pi NoIR Camera
+- Raspberry Pi HQ Camera (NoIR)
+- Arducam NoIR modules
+- SWIR sensors (InGaAs)
+- Hamamatsu InGaAs
+- Sensors Unlimited
+- Xenics
+- Princeton Instruments
+- FLIR A6260 SWIR
+- Photon etc.
+- Specim SWIR
+- Headwall SWIR
+- Cubert SWIR
+- Resonon SWIR
+
+### 12.3 IR Illumination
+- 850nm IR LED arrays
+- 940nm IR LED arrays
+- 1050nm IR LEDs
+- 1200nm IR LEDs
+- 1550nm eye-safe illuminators
+- Laser IR illuminators
+- COTS IR floodlights
+- IR flash modules
+- IR laser diodes
+- VCSEL arrays
+
+### 12.4 Infrared Spectroscopy
+- Hamamatsu C12666MA
+- Hamamatsu C12880MA
+- AS7262 (visible)
+- AS7263 (NIR)
+- AS7265x (visible + NIR)
+- SparkFun Spectral Sensor
+- AMS spectral sensors
+- Si-Ware NeoSpectra
+- Texas Instruments NIRscan
+- Viavi MicroNIR
+- Consumer Physics SCiO
+- Trinamix
+- Senorics
+
+### 12.5 IR Remote & Motion
+- TSOP38238 IR receiver
+- TSOP4838
+- VS1838B
+- IR LED transmitters
+- IR thermopile sensors
+- Passive IR (PIR) motion sensors
+- HC-SR501 PIR
+- AM312 PIR
+- Panasonic EKMB
+- Murata IRA-S series
+
+---
+
+## Axis 13: Sensor Hardware — Night Vision & Low-Light
+
+- Sony STARVIS IMX290
+- Sony STARVIS IMX462
+- Sony STARVIS IMX585
+- Sony STARVIS IMX662
+- Sony STARVIS 2 IMX675
+- IMX224
+- IMX385
+- IMX307
+- IMX291
+- IMX327
+- IMX415
+- IMX485
+- IMX571
+- IMX533
+- IMX294
+- IMX482
+- Arducam low-light modules
+- Raspberry Pi GS Camera (Global Shutter)
+- FLIR Blackfly S
+- FLIR Grasshopper
+- Basler ace
+- Basler dart
+- Allied Vision Alvium
+- Teledyne DALSA
+- IDS Imaging
+- Daheng Imaging
+- Hikrobot
+- Genie Nano
+- Photonis image intensifier tubes
+- L3Harris image intensifier tubes
+- Elbit Systems image intensifier tubes
+- Harder Digital image intensifier tubes
+- Katod image intensifier tubes
+- DEP image intensifier tubes
+- Photek image intensifier tubes
+- Stanford Computer Optics
+- Lambert Instruments
+- TRICOR
+- Night vision CMOS sensors
+- EMCCD sensors
+- sCMOS sensors
+- ICCD cameras
+- SPAD arrays
+- SiPM arrays
+- Photomultiplier tubes (PMT)
+- Microchannel plate (MCP)
+- Avalanche photodiodes (APD)
+- Single-photon avalanche diodes (SPAD)
+- Silicon photomultipliers (SiPM)
+
+---
+
+## Axis 14: Sensor Hardware — Acoustic & Sonar
+
+### 14.1 Ultrasonic Ranging (Air)
+- HC-SR04
+- HC-SR04P
+- JSN-SR04T (waterproof)
+- AJ-SR04M
+- US-100
+- US-015
+- MaxBotix LV-MaxSonar
+- MaxBotix XL-MaxSonar
+- MaxBotix MB1240
+- MaxBotix MB7040
+- MaxBotix HR-MaxSonar
+- Parallax PING)))
+- Seeed Ultrasonic Ranger
+- DFRobot URM09
+- DFRobot A02YYUW
+- Grove Ultrasonic Ranger
+- RCWL-1601
+- RCWL-9600
+- Trisonic
+- Murata MA40S4S
+- SensComp
+- Pepperl+Fuchs ultrasonic sensors
+- Banner ultrasonic sensors
+- Baumer ultrasonic sensors
+- Sick ultrasonic sensors
+- Keyence ultrasonic sensors
+- IFM ultrasonic sensors
+
+### 14.2 Sonar (Underwater)
+- Side-scan sonar (Humminbird, Garmin, Lowrance)
+- Multibeam sonar (Reson, Kongsberg, Teledyne)
+- Synthetic aperture sonar (SAS)
+- Forward-looking sonar (FLS)
+- DIDSON
+- ARIS
+- BlueView
+- Ping360
+- Ping Sonar Altimeter
+- Ping Echosounder
+- Tritech
+- Imagenex
+- EdgeTech
+- Klein Marine Systems
+- Marine Sonic
+- Coda Octopus
+- Sonardyne
+- EvoLogics
+- DeepVision
+- Kongsberg Mesotech
+- Blueprint Subsea
+- Nortek
+- Teledyne Marine
+- R2Sonic
+- WASSP
+
+### 14.3 Hydrophones
+- Aquarian Audio H2a
+- Aquarian Audio H1a
+- Cetacean Research hydrophones
+- Brüel & Kjær hydrophones
+- Reson hydrophones
+- Teledyne Reson
+- Benthowave
+- DolphinEar
+- SQ26 hydrophone
+- DIY piezo hydrophone
+- PVDF hydrophone
+- HTI hydrophones
+- Ocean Sonics icListen
+- JASCO
+- Loggerhead
+- SoundTrap
+- DSG Ocean
+- Benthos
+- Desert Star
+- RTSYS
+
+### 14.4 Acoustic & Sound Sensing
+- MAX4466 electret microphone
+- MAX9814
+- KY-037 sound sensor
+- KY-038
+- SparkFun Sound Detector
+- Adafruit Electret Microphone
+- MEMS microphones (Knowles, Infineon, ST)
+- INMP441
+- ICS-43434
+- SPH0645
+- WM8960
+- Microphone arrays (ReSpeaker, Matrix Creator)
+- ReSpeaker 4-mic array
+- ReSpeaker 6-mic array
+- Matrix Voice
+- Matrix Creator
+- Seeed Mic Array
+- MiniDSP UMIK-1
+- Earthworks microphones
+- Brüel & Kjær measurement mics
+- GRAS microphones
+- PCB Piezotronics
+- DPA microphones
+- Sennheiser
+- Audio-Technica
+
+### 14.5 Vibration & Mechanical
+- ADXL345
+- ADXL335
+- ADXL337
+- ADXL357
+- ADXL372
+- MPU6050
+- MPU6500
+- MPU9250
+- ICM-20948
+- ICM-42688
+- BMI160
+- BMI270
+- LSM6DS3
+- LSM6DSO
+- LSM9DS1
+- BNO055
+- BNO080
+- BNO085
+- SW-420 vibration sensor
+- Piezo vibration sensor (LDT0-028K)
+- Flexiforce
+- Strain gauges
+- Load cells
+- Piezoelectric accelerometers (PCB Piezotronics, Endevco, Brüel & Kjær)
+- IEPE accelerometers
+- Charge-mode accelerometers
+- MEMS accelerometers (Analog Devices, Bosch, ST)
+- Geophones
+- Seismometers
+- Geophone arrays
+- Fiber-optic vibration sensors
+- Laser vibrometers
+- Capacitive accelerometers
+- Servo accelerometers
+
+---
+
+## Axis 15: Sensor Hardware — Radar & mmWave
+
+- TI IWR1443
+- TI IWR1642
+- TI IWR6843
+- TI IWR6843ISK
+- TI AWR1243
+- TI AWR1443
+- TI AWR1642
+- TI AWR1843
+- TI AWR2243
+- TI mmWave cascade
+- Acconeer A111
+- Acconeer A121
+- Infineon BGT60TR13C
+- Infineon BGT60LTR11
+- Infineon Position2Go
+- Infineon Distance2Go
+- NXP TEF810x
+- NXP S32R
+- Uhnder
+- Arbe Robotics
+- Vayyar
+- Novelda UWB
+- XeThru X4
+- XeThru X7
+- Humatics
+- Ainstein
+- Smartmicro
+- Continental ARS
+- Bosch radar
+- Delphi radar
+- Aptiv radar
+- Veoneer radar
+- Metawave
+- Echodyne
+- Aveillant
+- SpotterRF
+- Blighter
+- Robin Radar
+- Navtech
+- Applied Radar
+- Cambridge Consultants
+- Google Soli (radar)
+- Project Soli sensors
+- Walabot
+- Walabot DIY
+- Walabot Pro
+
+---
+
+## Axis 16: Sensor Hardware — LiDAR & Time-of-Flight
+
+### 16.1 LiDAR (Scanning)
+- Velodyne HDL-64E
+- Velodyne HDL-32E
+- Velodyne VLP-16 (Puck)
+- Velodyne VLP-32
+- Velodyne Ultra Puck
+- Ouster OS0
+- Ouster OS1
+- Ouster OS2
+- Ouster Rev 7
+- Hesai Pandar
+- Hesai AT128
+- Hesai QT64
+- Hesai XT32
+- RoboSense RS-LiDAR-16
+- RoboSense RS-LiDAR-32
+- RoboSense RS-Helios
+- RoboSense RS-Bpearl
+- Livox Mid-40
+- Livox Mid-100
+- Livox Horizon
+- Livox Tele-15
+- Livox Avia
+- Innovusion
+- Luminar
+- Aeva
+- Aeva Aeries II
+- Seyond (formerly Innoviz)
+- Innoviz One
+- Innoviz Two
+- Quanergy
+- Cepton
+- Blickfeld
+- SOSLAB
+- LeddarTech
+- Ibeo
+- Valeo Scala
+- Continental
+- ZF
+- Riegl
+- Leica
+- Trimble
+- Faro
+- Topcon
+- Sick LMS
+- Sick MRS
+- Hokuyo URG
+- Hokuyo UST
+- Hokuyo UTM
+- Hokuyo UXM
+- RPLIDAR A1
+- RPLIDAR A2
+- RPLIDAR A3
+- RPLIDAR S1
+- RPLIDAR S2
+- RPLIDAR S3
+- RPLIDAR T1
+- SLAMTEC Mapper
+- YDLIDAR X2
+- YDLIDAR X4
+- YDLIDAR G4
+- YDLIDAR T-mini
+- YDLIDAR TG series
+- Benewake TFmini
+- Benewake TFmini-S
+- Benewake TF02
+- Benewake TF03
+- Benewake TF-Luna
+- Benewake CE30
+- Leddar One
+- Leddar M16
+- LeddarTech Vu8
+- LightWare SF11
+- LightWare SF20
+- LightWare SF30
+- LightWare SF45
+- LightWare LW20
+- Aerotenna
+- TerraRanger
+- PulsedLight
+
+### 16.2 Time-of-Flight (ToF)
+- ST VL53L0X
+- ST VL53L1X
+- ST VL53L3CX
+- ST VL53L4CD
+- ST VL53L5CX (multizone)
+- ST VL53L7CX
+- ST VL53L8CX
+- ST VL6180X
+- AMS TMF8801
+- AMS TMF8701
+- AMS TMF8820
+- AMS TMF8821
+- Melexis MLX75027
+- Melexis MLX75026
+- Texas Instruments OPT8241
+- Texas Instruments OPT8320
+- Texas Instruments OPT9221
+- Texas Instruments OPT3101
+- Infineon IRS1125A
+- Infineon IRS2381C
+- Panasonic ToF
+- Sharp GP2Y0A series
+- Sharp GP2Y0D series
+- Sharp GP2Y0E series
+- Adafruit VL53L0X
+- Adafruit VL53L1X
+- Pololu ToF
+- DFRobot ToF
+- Terabee TeraRanger
+- Terabee Evo
+- Terabee 3Dcam
+
+### 16.3 Structured Light & Depth Cameras
+- Intel RealSense D400 series
+- Intel RealSense D435
+- Intel RealSense D435i
+- Intel RealSense D455
+- Intel RealSense L515 (LiDAR)
+- Intel RealSense SR300
+- Intel RealSense R200
+- Microsoft Kinect v1
+- Microsoft Kinect v2
+- Microsoft Azure Kinect DK
+- Microsoft Kinect Azure ToF
+- Orbbec Astra
+- Orbbec Astra Pro
+- Orbbec Femto
+- Orbbec Femto Bolt
+- Orbbec Gemini
+- Orbbec Persee
+- ASUS Xtion
+- ASUS Xtion Pro Live
+- PrimeSense Carmine
+- Occipital Structure Sensor
+- Occipital Structure Core
+- StereoLabs ZED
+- StereoLabs ZED 2
+- StereoLabs ZED 2i
+- StereoLabs ZED Mini
+- StereoLabs ZED X
+- Luxonis DepthAI
+- Luxonis OAK-D
+- Luxonis OAK-D Lite
+- Luxonis OAK-D Pro
+- Luxonis OAK-D W
+- Arducam ToF
+- Arducam stereo
+- e-con Systems
+- FRAMOS
+- IDS Ensenso
+- Photoneo
+- Zivid
+- LMI Gocator
+- Cognex
+- Keyence
+- SICK 3D
+- Basler ToF
+- Helios2
+- Lucid Helios
+- Vzense
+- Vzense ToF
+- Vzense NYX series
+
+### 16.4 LiDAR Accessories & Supporting Hardware
+- LiDAR rotation mounts
+- LiDAR protective housings
+- LiDAR cleaning systems
+- LiDAR calibration targets
+- LiDAR reference spheres
+- LiDAR reflective markers
+- LiDAR mounting brackets
+- LiDAR vibration isolators
+- LiDAR cooling systems
+- LiDAR power supplies
+- LiDAR interface boards
+- LiDAR Ethernet adapters
+- LiDAR time synchronization modules (PTP, GPS)
+
+---
+
+## Axis 17: Sensor Hardware — Hyperspectral & Multispectral
+
+### 17.1 Hyperspectral Cameras
+- Specim IQ
+- Specim FX10
+- Specim FX17
+- Specim FX50
+- Specim SWIR
+- Specim Aisa
+- Headwall Nano-Hyperspec
+- Headwall Micro-Hyperspec
+- Headwall Co-Aligned VNIR
+- Headwall SWIR
+- Cubert UHD 185
+- Cubert FireflEYE
+- Cubert Ultris
+- Resonon Pika
+- Resonon Firefly
+- BaySpec OCI
+- BaySpec GoldenEye
+- IMEC snapshot mosaic
+- IMEC linescan
+- Ximea hyperspectral
+- Photon etc. IMA
+- Surface Optics
+- ChemImage
+- Telops
+- Norsk Elektro Optikk
+- HySpex
+- Corning microHSI
+- TruTag
+- Spectricity
+- Salvo Technologies
+
+### 17.2 Multispectral Cameras
+- MicaSense RedEdge
+- MicaSense Altum
+- MicaSense Dual
+- Parrot Sequoia
+- Parrot Multispectral
+- Sentera
+- Sentera 6X
+- Sentera Double 4K
+- Mapir Survey
+- Mapir Kernel
+- SlantRange
+- Tetracam
+- ADC Micro
+- ADC Lite
+- Micasense RedEdge-P
+- Micasense Altum-PT
+- DJI P4 Multispectral
+- DJI Mavic 3 Multispectral
+- Autel Multispectral
+- Spectral Devices
+- FluxData
+- PocketPixels
+
+### 17.3 Spectral Sensor Components
+- AS7262
+- AS7263
+- AS7265x
+- Hamamatsu micro-spectrometer
+- Si-Ware NeoSpectra
+- Texas Instruments NIRscan Nano
+- Texas Instruments DLP NIRscan
+- Viavi MicroNIR
+- Consumer Physics SCiO
+- Trinamix
+- Senorics
+- Ocean Insight
+- Ocean Optics
+- Avantes
+- B&W Tek
+- StellarNet
+- Ibsen Photonics
+- Wasatch Photonics
+
+### 17.4 Spectral Accessories
+- Spectral calibration lamps
+- Spectral calibration targets
+- Spectralon reflectance standards
+- Integrating spheres
+- Diffusers
+- Filters (bandpass, longpass, shortpass)
+- Filter wheels
+- Tunable filters (AOTF, LCTF)
+- Diffraction gratings
+- Prisms
+- Slits
+- Fiber optic probes
+- Reflection probes
+- Transmission probes
+- Raman probes
+
+---
+
+## Axis 18: Sensor Hardware — Environmental & Chemical
+
+### 18.1 Gas Sensors
+- MQ-2 (flammable gas)
+- MQ-3 (alcohol)
+- MQ-4 (methane)
+- MQ-5 (LPG)
+- MQ-6 (LPG/butane)
+- MQ-7 (CO)
+- MQ-8 (hydrogen)
+- MQ-9 (CO/flammable)
+- MQ-135 (air quality)
+- MQ-136 (H2S)
+- MQ-137 (ammonia)
+- MQ-138 (VOC)
+- MQ-303A
+- MQ-309A
+- MICS-5524
+- MICS-6814
+- MiCS-VZ-89TE
+- CCS811
+- SGP30
+- SGP40
+- SGP41
+- BME680
+- BME688
+- ENS160
+- iAQ-Core
+- AMS CCS801
+- Sensirion SGP
+- Figaro TGS series
+- Figaro TGS2600
+- Figaro TGS2602
+- Figaro TGS2611
+- Figaro TGS2620
+- Figaro TGS8100
+- Figaro FECS
+- Alphasense
+- Alphasense CO-AX
+- Alphasense NO2-A1
+- Alphasense SO2-AF
+- Alphasense O3-A1
+- Alphasense H2S-A1
+- Winsen
+- Winsen ZE03
+- Winsen ME3
+- SGX Sensortech
+- SGX MICS
+- e2v
+- City Technology
+- CityTech
+- Dynament
+- Senseair
+- Senseair S8
+- Senseair Sunrise
+- Cubic
+- Cubic CM1106
+- Sensirion SCD30
+- Sensirion SCD40
+- Sensirion SCD41
+- Amphenol Telaire
+- Amphenol T6713
+- Gas Sensing Solutions
+- GSS COZIR
+- GSS SprintIR
+- PP Systems
+- Vaisala
+- Vaisala GMP
+- Vaisala GMM
+
+### 18.2 Particulate Matter
+- Plantower PMS5003
+- Plantower PMS7003
+- Plantower PMS1003
+- Plantower PMS3003
+- Plantower PMS6003
+- Plantower PMS9003
+- Nova PM SDS011
+- Nova PM SDS021
+- Nova PM SDS018
+- Sharp GP2Y1010AU0F
+- Sharp GP2Y1014AU0F
+- Shinyei PPD42NS
+- Shinyei PPD60PV
+- Sensirion SPS30
+- Sensirion SPS01
+- Honeywell HPMA
+- Honeywell HPM
+- TSI DustTrak
+- TSI SidePak
+- GrayWolf
+- Met One
+- Palas
+- Grimm
+- Alphasense OPC
+- Alphasense OPC-N2
+- Alphasense OPC-N3
+- Alphasense OPC-R1
+- Alphasense OPC-R2
+
+### 18.3 Radiation Detection
+- Geiger-Müller tube M4011
+- Geiger-Müller tube SBM-20
+- Geiger-Müller tube J305
+- Geiger-Müller tube LND-712
+- Geiger-Müller tube SI-3BG
+- Geiger-Müller tube SBM-19
+- Geiger-Müller tube ZP1200
+- Geiger-Müller tube ZP1400
+- Geiger-Müller tube ZP1300
+- Nukalert
+- Radiation Watch Pocket Geiger
+- Radiation Watch Type 5
+- Soeks
+- Radex
+- Polimaster
+- Ludlum
+- Mirion
+- Thermo Scientific
+- Canberra
+- Ortec
+- Amptek
+- Kromek
+- Scintillation detectors (NaI, CsI, LaBr)
+- Saint-Gobain
+- Canberra NaI
+- Scionix
+- Amcrys
+- Epic Crystal
+- Radiation monitoring networks (Safecast)
+- bGeigie Nano
+- Safecast bGeigie
+- DIY Geiger counters
+- OpenGeiger
+- IoT Geiger
+
+### 18.4 Weather & Atmospheric
+- BME280
+- BME680
+- BMP280
+- BMP388
+- BMP390
+- DHT11
+- DHT22 / AM2302
+- AM2320
+- SHT21
+- SHT31
+- SHT35
+- SHT85
+- Si7021
+- HTU21D
+- MS5611
+- MS5607
+- LPS22
+- LPS25
+- LPS33
+- DS18B20
+- TMP36
+- LM35
+- MAX31855 (thermocouple)
+- MAX31865 (RTD)
+- PT100 / PT1000
+- Thermistors
+- Anemometers (cup, vane, ultrasonic)
+- Davis anemometer
+- RM Young
+- Gill Instruments
+- Wind vanes
+- Rain gauges (tipping bucket, optical, acoustic)
+- Hail sensors
+- Snow depth sensors
+- Lightning detectors (AS3935, Boltek, Earth Networks)
+- AS3935 Franklin Lightning Sensor
+- Vaisala Thunderstorm
+- Boltek LD-350
+- Earth Networks
+- Blitzortung
+- TOA Lightning
+- Météorage
+- Fire detectors
+- Flame detectors (UV, IR, UV/IR)
+- Smoke detectors
+- CO detectors
+- Combustible gas detectors
+- Water leak sensors
+- Flood sensors
+- Soil moisture sensors (capacitive, resistive, TDR, FDR)
+- Soil temperature sensors
+- Soil pH sensors
+- Soil EC sensors
+- Pyranometers (solar radiation)
+- Pyrheliometers
+- Net radiometers
+- Quantum sensors (PAR)
+- Albedometers
+- UV sensors
+- UV index sensors
+- Total ozone sensors
+- Ceilometers (cloud height)
+- Disdrometers
+- Present weather sensors
+- Visibility sensors
+- Fog sensors
+- Road weather sensors
+- Atmospheric profilers
+- Radiosondes
+- Dropsondes
+- Ozonesondes
+- Sodar
+- Wind profilers
+- Doppler radar
+- Weather balloons
+- Kites for weather sensing
+
+### 18.5 Water & Liquid Quality
+- pH sensors (analog, digital)
+- Atlas Scientific pH
+- DFRobot pH
+- Milwaukee pH
+- Hanna pH
+- TDS sensors
+- EC sensors
+- Conductivity sensors
+- Turbidity sensors
+- DFRobot turbidity
+- Atlas Scientific turbidity
+- Dissolved oxygen sensors
+- Optical DO sensors
+- Galvanic DO sensors
+- ORP sensors
+- Oxidation-reduction potential
+- Chlorine sensors
+- Free chlorine sensors
+- Total chlorine sensors
+- Ammonia sensors
+- Nitrate sensors
+- Nitrite sensors
+- Phosphate sensors
+- Hardness sensors
+- Salinity sensors
+- Temperature sensors (waterproof)
+- Water level sensors (ultrasonic, pressure, radar, float)
+- Flow sensors (paddle, turbine, magnetic, ultrasonic)
+- Water pressure sensors
+- Water quality sondes (YSI, Hydrolab, In-Situ)
+- Multiparameter probes
+- Ion-selective electrodes (ISE)
+- Colorimetric analyzers
+- Fluorometers (chlorophyll, CDOM, rhodamine)
+- Algae sensors
+- Oil in water sensors
+- Heavy metal sensors (ASV, colorimetric)
+- Microbial sensors (rapid)
+- BOD sensors
+- COD sensors
+- TOC analyzers
+
+### 18.6 Chemical & Biological
+- Electronic noses (Alpha MOS, Sensigent, Aryballe)
+- Surface acoustic wave (SAW) sensors
+- Quartz crystal microbalance (QCM)
+- Chemiresistive sensors
+- Electrochemical sensors
+- Optical sensors (colorimetric, fluorescent)
+- Raman spectrometers
+- FTIR spectrometers
+- Mass spectrometers (portable)
+- Ion mobility spectrometers (IMS)
+- Differential mobility spectrometers (DMS)
+- Flame photometric detectors
+- Photoionization detectors (PID)
+- Flame ionization detectors (FID)
+- Thermal conductivity detectors (TCD)
+- Electrochemical biosensors
+- Optical biosensors
+- Piezoelectric biosensors
+- Magnetic biosensors
+- DNA sensors
+- RNA sensors
+- Protein sensors
+- Antibody sensors
+- Enzyme sensors
+- Aptamer sensors
+- Whole-cell biosensors
+- Organ-on-chip sensors
+- Lab-on-chip systems
+- Microfluidic sensors
+- Lateral flow assays
+- ELISA plates
+- PCR devices (portable)
+- LAMP devices
+- CRISPR-based detectors
+- Nanopore sequencers (MinION)
+- qPCR machines (portable)
+- Flow cytometers (portable)
+- Spectrophotometers (portable)
+- Fluorometers (portable)
+- Luminometers
+
+### 18.7 Explosives & Narcotics
+- Trace detectors (IMS)
+- Raman spectrometers (handheld)
+- FTIR (handheld)
+- Colorimetric test kits
+- Electronic noses for explosives
+- Chemiluminescence detectors
+- Mass spectrometry (portable)
+- GC-MS (portable)
+- Ion mobility spectrometers (ETD, IONSCAN, Itemiser)
+- Smiths Detection
+- Morpho
+- Bruker
+- Thermo Scientific
+- Flir (Fido)
+- DetectaChem
+- Mistral
+- Narcotics detectors (analogous technologies)
+
+### 18.8 Metal, Mineral & Material Detection
+- Metal detectors (VLF, PI, BFO)
+- Ground-penetrating radar (GPR)
+- Magnetometers for metal detection
+- Eddy current sensors
+- X-ray fluorescence (XRF) analyzers
+- X-ray diffraction (XRD)
+- LIBS (laser-induced breakdown spectroscopy)
+- Raman for material ID
+- NIR for material ID
+- Ultrasonic thickness gauges
+- Ultrasonic flaw detectors
+- Acoustic emission sensors
+- Thermal conductivity sensors
+- Electrical conductivity sensors
+- Dielectric sensors
+- Capacitive sensors for material
+- Inductive sensors
+- Optical sensors for material
+- Hyperspectral for material
+- Multispectral for material
+- Terahertz for material
+- Magnetic permeability sensors
+- Magnetic susceptibility sensors
+- Resistivity meters
+- Conductivity meters
+- Inductively coupled plasma (ICP) (lab)
+- Atomic absorption (lab)
+- Mass spectrometry (lab)
+
+---
+
+## Axis 19: Sensor Hardware — Radiation & Nuclear (Expanded)
+
+- Geiger-Müller counters (all models listed above)
+- Scintillation detectors (NaI, CsI, LaBr, BGO, plastic)
+- Proportional counters
+- Ionization chambers
+- Semiconductor detectors (HPGe, Si(Li), CdTe, CZT)
+- CZT detectors
+- CdTe detectors
+- HPGe detectors
+- Si(Li) detectors
+- Neutron detectors (He-3, BF3, Li-6, fission chambers)
+- He-3 tubes
+- BF3 tubes
+- Li-6 glass
+- Fission chambers
+- Boron-lined counters
+- Neutron dosimeters
+- Neutron spectrometers
+- Gamma spectrometers
+- Alpha spectrometers
+- Beta detectors
+- Alpha detectors
+- Radon detectors
+- Radon monitors
+- Thoron detectors
+- Radon progeny monitors
+- Personal dosimeters
+- TLD (thermoluminescent)
+- OSL (optically stimulated luminescence)
+- Film badges
+- Electronic dosimeters
+- Area monitors
+- Contamination monitors
+- Portal monitors
+- Handheld detectors
+- Backpack detectors
+- UAV-mounted detectors
+- Vehicle-mounted detectors
+- Submarine detectors
+- Underwater detectors
+- Airborne detectors
+- Space-based detectors
+- Muon detectors
+- Cosmic ray detectors
+- Neutrino detectors
+- Dark matter detectors
+- Gravitational wave detectors
+- Particle accelerators
+- Cyclotrons
+- Synchrotrons
+- Linear accelerators
+
+---
+
+## Axis 20: Sensor Hardware — Biometric & Physiological
+
+### 20.1 Biometric
+- Fingerprint sensors (optical, capacitive, ultrasonic)
+- Optical fingerprint sensors
+- Capacitive fingerprint sensors
+- Ultrasonic fingerprint sensors
+- Thermal fingerprint sensors
+- Fingerprint modules (R307, R305, GT-521F52, FPM10A)
+- Fingerprint scanners (NBIS, SourceAFIS compatible)
+- Iris scanners
+- Retina scanners
+- Face recognition cameras (RGB, IR, 3D)
+- Structured light face scanners
+- Time-of-flight face scanners
+- Stereo face scanners
+- Vein pattern scanners (finger, palm, wrist)
+- Palm print scanners
+- Palm vein scanners
+- Hand geometry scanners
+- Voice recognition microphones
+- Voice recognition hardware
+- Signature tablets
+- Gait analysis sensors
+- Keystroke dynamics sensors
+- Mouse dynamics sensors
+- Behavioral biometrics sensors
+- Multimodal biometric sensors
+- DNA sampling kits
+- Blood sampling kits
+- Saliva sampling kits
+- Breath analyzers
+- Body odor sensors
+- Ear shape scanners
+- Heart rhythm (ECG-based) biometrics
+
+### 20.2 Physiological
+- Heart rate sensors (optical, electrical)
+- PPG sensors (photoplethysmography)
+- MAX30100
+- MAX30102
+- MAX30105
+- MAX86150
+- AD8232 (ECG)
+- AD8233
+- ADS1292
+- ADS1298
+- ECG electrodes
+- ECG patches
+- Holter monitors
+- Event recorders
+- Implantable loop recorders
+- EMG sensors
+- MyoWare
+- EMG electrodes
+- EEG sensors
+- OpenBCI
+- Muse
+- Emotiv
+- NeuroSky
+- g.tec
+- Brain Products
+- Biosemi
+- EEG electrodes
+- Dry EEG electrodes
+- Saline EEG electrodes
+- Gel EEG electrodes
+- GSR / EDA sensors
+- Grove GSR
+- Shimmer GSR
+- Empatica E4
+- Empatica Embrace
+- EDA electrodes
+- Respiration sensors (chest band, nasal, thermal)
+- Spirometers
+- Pulse oximeters
+- Capnometers
+- Blood pressure monitors (cuff, optical, tonometric)
+- Continuous BP monitors
+- Temperature sensors (skin, core, tympanic)
+- Infrared thermometers
+- Thermal imaging for fever
+- Sweat sensors
+- Wearable sweat patches
+- Glucose monitors (invasive, minimally invasive, non-invasive)
+- CGM systems
+- Insulin pumps
+- Hormone sensors
+- Electrolyte sensors
+- Hydration sensors
+- Body composition analyzers
+- Bioimpedance sensors
+- Ultrasound probes (medical)
+- Portable ultrasound
+- Handheld ultrasound
+- Wearable ultrasound
+- OCT (optical coherence tomography)
+- NIRS (near-infrared spectroscopy)
+- fNIRS
+- fMRI (facility)
+- PET (facility)
+- CT (facility)
+- MRI (facility)
+- X-ray (facility, portable)
+- Fluoroscopy
+- Mammography
+- DEXA
+- Bone density scanners
+- Retinal imaging
+- Fundus cameras
+- OCT ophthalmology
+- Tonometers
+- Autorefractors
+- Audiometers
+- Tympanometers
+- Otoacoustic emission (OAE)
+- Auditory brainstem response (ABR)
+- Electrocochleography
+- Vestibular testing
+- Posturography
+- Olfactometers
+- Gustatory sensors
+- Tactile sensitivity testers
+- Pain assessment tools
+- Sleep monitors
+- Polysomnography
+- Actigraphy
+- Home sleep testing
+- Apnea monitors
+- Fetal monitors
+- Contraction monitors
+- Neonatal monitors
+
+### 20.3 Human Interface & Gesture
+- Leap Motion
+- Leap Motion Controller 2
+- Ultraleap
+- Microsoft Kinect v1
+- Microsoft Kinect v2
+- Azure Kinect DK
+- Intel RealSense (gesture)
+- Orbbec
+- Myo Armband (EMG)
+- Thalmic Labs Myo
+- CTRL-labs
+- Meta (formerly Facebook) neural wristband
+- EMG gesture bands
+- EEG headsets for BCI
+- Eye trackers (Tobii, SMI, Pupil Labs, EyeLink, Gazepoint)
+- Tobii Pro
+- Tobii Eye Tracker 5
+- Pupil Labs Core
+- Pupil Labs Neon
+- Pupil Labs Invisible
+- SMI Eye Tracking
+- SR Research EyeLink
+- Gazepoint GP3
+- EyeTech
+- EyeTech TM5
+- LC Technologies
+- Seeing Machines
+- Smart Eye
+- Face tracking cameras
+- Face tracking software (FaceTrackNoIR)
+- Motion capture systems
+- OptiTrack
+- Vicon
+- Qualisys
+- Motion Analysis
+- Xsens MVN
+- Xsens DOT
+- Rokoko
+- Perception Neuron
+- Noitom
+- StretchSense
+- Manus VR gloves
+- HaptX gloves
+- CyberGlove
+- 5DT Data Glove
+- VRgluv
+- Dexta Robotics
+- Force feedback gloves
+- Tactile feedback gloves
+- Thermal feedback gloves
+- Haptic suits (Teslasuit, bHaptics, Woojer)
+- Teslasuit
+- bHaptics TactSuit
+- bHaptics Tactosy
+- Woojer
+- SubPac
+- Haptic vests
+- Haptic chairs
+- Haptic floors
+- Haptic shoes
+- Haptic belts
+- Haptic bands
+- Haptic rings
+- Haptic armbands
+- Haptic thimbles
+- Haptic pins
+- Ultrasonic haptics (Ultrahaptics)
+- Ultraleap STRATOS
+- Mid-air haptics
+- Electro-tactile
+- Electro-tactile displays
+- Tactile displays
+- Refreshable braille displays
+- Refreshable tactile graphics
+- Shape displays (inFORM, ShapeClip)
+- Pin array displays
+- Programmable matter
+- Claytronics
+- Utility fog
+
+### 20.4 Olfactory & Gustatory Output
+- Scent synthesizers (OVR Technology, Feelreal)
+- OVR Scent
+- Feelreal
+- Scentee
+- AromaJoin
+- Aromajoin
+- Scent capsules
+- Scent cartridges
+- Gustatory displays (Nimesha Ranasinghe)
+- Electric taste
+- Thermal taste
+- Virtual taste
+- Taste synthesizers
+- Digital lollipop
+- Digital cocktail
+- Digital food
+
+---
+
+## Axis 21: Sensor Hardware — Positional, Motion & Navigation
+
+### 21.1 GNSS / GPS
+- u-blox NEO-6M
+- u-blox NEO-7M
+- u-blox NEO-M8N
+- u-blox NEO-M9N
+- u-blox ZED-F9P (RTK)
+- u-blox ZED-F9R (dead reckoning)
+- u-blox MAX-M10S
+- u-blox SAM-M8Q
+- u-blox LEA-M8
+- u-blox LARA-R6
+- u-blox ZOE-M8
+- MediaTek MTK3339
+- MediaTek MTK3329
+- Quectel L76
+- Quectel L86
+- Quectel LC86
+- Quectel LC29H
+- Quectel LG290P
+- Trimble
+- Septentrio Mosaic
+- Septentrio PolaRx
+- NovAtel OEM7
+- NovAtel SMART7
+- Hemisphere
+- Hemisphere Vega
+- Telit
+- Telit SE868
+- Telit SL869
+- SkyTraq
+- SkyTraq PX1122R
+- Allystar
+- Allystar HD8040
+- ST Teseo
+- ST Teseo-LIV3F
+- Broadcom BCM47755
+- Sony CXD5605
+- Intel
+- Qualcomm
+- Samsung
+- Adafruit Ultimate GPS
+- SparkFun GPS
+- DFRobot GPS
+- Grove GPS
+- Beitian GPS
+- BN-880
+- BN-220
+- Matek GPS
+- Holybro GPS
+- Here+ RTK
+- Here3
+- Here4
+- Reach RS2
+- Reach M2
+- Emlid
+- Swift Navigation Piksi
+- Swift Navigation Duro
+- ArduSimple
+- ArduSimple RTK
+- SparkFun RTK Express
+- SparkFun RTK Surveyor
+- RTKLIB compatible receivers
+- GNSS antennas (patch, helical, choke ring, surveying)
+- GNSS splitters
+- GNSS amplifiers
+- GNSS simulators
+- GNSS jammers (for testing)
+- GNSS spoofers (for testing)
+
+### 21.2 Inertial Measurement Units (IMU)
+- MPU6050
+- MPU6500
+- MPU9150
+- MPU9250
+- MPU9255
+- ICM-20602
+- ICM-20689
+- ICM-20948
+- ICM-42688-P
+- BMI160
+- BMI270
+- BMI088
+- LSM6DS3
+- LSM6DSO
+- LSM6DSL
+- LSM6DSV
+- LSM9DS1
+- LSM9DSO
+- BNO055
+- BNO080
+- BNO085
+- BNO086
+- ADIS16470
+- ADIS16495
+- ADIS16505
+- ADIS16507
+- ADIS16448
+- ADIS16488
+- ADIS16490
+- Bosch BMI
+- VectorNav VN-100
+- VectorNav VN-200
+- VectorNav VN-300
+- VectorNav VN-110
+- Xsens MTi
+- Xsens MTi-1
+- Xsens MTi-3
+- Xsens MTi-7
+- Xsens MTi-10
+- Xsens MTi-30
+- Xsens MTi-G
+- Advanced Navigation
+- Advanced Navigation Spatial
+- Advanced Navigation Motus
+- Advanced Navigation Orientus
+- Advanced Navigation Boreas
+- Ellipse (SBG Systems)
+- SBG Systems Ellipse
+- SBG Systems Ekinox
+- SBG Systems Apogee
+- SBG Systems Quanta
+- iXblue
+- iXblue Airins
+- iXblue Octans
+- iXblue Phins
+- iXblue Hydrins
+- KVH
+- KVH 1750
+- KVH 1725
+- KVH CG-5100
+- Honeywell
+- Honeywell HG1120
+- Honeywell HG4930
+- Honeywell Laseref
+- Northrop Grumman
+- Northrop Grumman LN-200
+- Northrop Grumman LN-251
+- Northrop Grumman LN-3
+- Kearfott
+- Kearfott T-30
+- Kearfott KI-5000
+- Inertial Labs
+- Inertial Labs IMU-P
+- Inertial Labs INS
+- Inertial Labs GPS-aided INS
+- LORD MicroStrain
+- LORD 3DM-GX5
+- LORD 3DM-CV5
+- LORD 3DM-GX4
+- LORD 3DM-GX3
+- LORD 3DM-GX2
+- ADIS
+- Analog Devices ADIS
+- STMicroelectronics IMU
+- Bosch IMU
+- TDK InvenSense IMU
+- Murata IMU
+- Silicon Sensing IMU
+- Sensonor IMU
+- Colibrys IMU
+- Physical Logic IMU
+- Aceinna IMU
+- Aceinna OpenIMU
+- Bosch BMI series
+- MEMSIC IMU
+- Memsic
+
+### 21.3 Magnetometers & Compasses
+- HMC5883L
+- QMC5883L
+- HMC5983
+- LIS3MDL
+- LIS2MDL
+- MAG3110
+- MMC5603
+- MMC5983MA
+- RM3100
+- PNI RM3100
+- PNI MicroMag
+- PNI SpacePoint
+- Honeywell HMC
+- Honeywell HMR
+- Honeywell Magnetometers
+- Bartington
+- Bartington Mag-03
+- Bartington Grad601
+- Bartington Mag648
+- Scintrex
+- Scintrex ENVI
+- Scintrex SM-5
+- Geometrics
+- Geometrics G-858
+- Geometrics G-882
+- Geometrics G-856
+- GEM Systems
+- GEM GSM-19
+- Sercel
+- Metrolab
+- Metrolab MagVector
+- Fluxgate magnetometers
+- Fluxgate compasses
+- Proton precession magnetometers
+- Overhauser magnetometers
+- Optically pumped magnetometers
+- Potassium magnetometers
+- Cesium magnetometers
+- Helium magnetometers
+- SQUID magnetometers
+- NV-diamond magnetometers
+- SERF magnetometers
+- Atomic magnetometers
+- Hall effect sensors
+- Hall effect compasses
+- Magneto-resistive sensors
+- AMR sensors
+- GMR sensors
+- TMR sensors
+- SparkFun Magnetic Imaging Tile
+- Magnetic field cameras
+
+### 21.4 Altitude & Pressure
+- BMP180
+- BMP280
+- BMP388
+- BMP390
+- BME280
+- BME680
+- BME688
+- MS5611
+- MS5607
+- MS5803
+- MS5837
+- LPS22
+- LPS22HH
+- LPS25
+- LPS27
+- LPS28
+- LPS33
+- LPS35
+- MPL3115A2
+- DPS310
+- DPS368
+- SCP1000
+- Keller pressure sensors
+- Honeywell pressure sensors
+- TE Connectivity pressure sensors
+- Bosch pressure sensors
+- ST pressure sensors
+- Measurement Specialties
+- Freescale pressure sensors
+- NXP pressure sensors
+- Infineon pressure sensors
+
+### 21.5 Encoders & Position
+- Rotary encoders (incremental, absolute)
+- Optical encoders
+- Magnetic encoders
+- Capacitive encoders
+- Inductive encoders
+- Resolver
+- Synchro
+- Linear encoders
+- Glass scales
+- Magnetic tape encoders
+- Quadrature encoders
+- SSI encoders
+- BiSS encoders
+- EnDat encoders
+- HIPERFACE encoders
+- Tamagawa encoders
+- Heidenhain encoders
+- Renishaw encoders
+- Baumer encoders
+- Kübler encoders
+- SICK encoders
+- Sick
+- Pepperl+Fuchs
+- IFM
+- Balluff
+- Omron
+- Autonics
+- Broadcom
+- US Digital
+- CUI Devices
+- Bourns
+- Alps Alpine
+- Grayhill
+- Hall effect sensors
+- Magnetic position sensors
+- Inductive proximity sensors
+- Capacitive proximity sensors
+- Optical proximity sensors
+- Ultrasonic position sensors
+- Laser position sensors
+- LVDT
+- RVDT
+- Linear potentiometers
+- Rotary potentiometers
+- String potentiometers
+- Draw-wire sensors
+- Cable-extension transducers
+- Tilt sensors
+- Inclinometers
+- Accelerometer-based tilt
+- Liquid tilt sensors
+- MEMS tilt sensors
+- Gyroscope-based tilt
+- Artificial horizon
+
+### 21.6 Force, Torque & Tactile
+- Strain gauges (foil, semiconductor, thin-film)
+- Load cells (S-type, canister, beam, button, pancake)
+- Load cells (single-point, multi-axis)
+- Torque sensors (reaction, rotary, static)
+- Torque transducers
+- ATI force/torque sensors
+- ATI Mini
+- ATI Nano
+- ATI Omega
+- ATI Delta
+- Robotiq force/torque sensors
+- OnRobot force/torque sensors
+- Schunk force/torque sensors
+- JR3 force/torque sensors
+- Bota Systems force/torque sensors
+- Sunrise Instruments
+- Sunrise force/torque
+- Nordbo Robotics
+- Force sensors (FSR, FlexiForce)
+- FlexiForce
+- Interlink FSR
+- Force Sensing Resistors
+- Capacitive force sensors
+- Piezoelectric force sensors
+- Optical force sensors
+- Magnetic force sensors
+- Tactile sensors (resistive, capacitive, piezoelectric, optical)
+- BioTac
+- BioTac SP
+- SynTouch
+- GelSight
+- GelSight Mini
+- Tactile Sensor (Contactile)
+- Contactile
+- uSkin (Xela Robotics)
+- Xela uSkin
+- TacTip
+- TacThumb
+- Soft tactile sensors
+- E-skin
+- RoboSkin
+- RoboSkin (TUM)
+- RobotSkin
+- Stretchable tactile sensors
+- Tactile arrays
+- Pressure mats
+- Pressure mapping systems (Tekscan, XSensor)
+- Tekscan
+- XSensor
+- Novel
+- Pliance
+- Foot pressure sensors
+- Grip force sensors
+- Slip sensors
+- Thermal tactile sensors
+- Vibrotactile sensors
+- Piezo tactile arrays
+- Magnetic tactile arrays
+- Optical tactile arrays
+- MEMS tactile sensors
+
+### 21.7 Proximity, Presence & Ranging
+- Ultrasonic proximity
+- Infrared proximity (Sharp GP2Y0A)
+- Laser proximity
+- LiDAR proximity
+- Radar proximity
+- Capacitive proximity
+- Inductive proximity
+- Magnetic proximity (reed switch, Hall)
+- Optical proximity (photodiode, phototransistor)
+- Time-of-flight proximity
+- ToF sensors (listed above)
+- PIR motion sensors
+- Microwave motion sensors
+- Ultrasonic motion sensors
+- Radar motion sensors (doppler)
+- Presence sensors (mmWave)
+- Occupancy sensors
+- Human presence detection
+- Vital signs radar
+- Through-wall radar
+- Ground-penetrating radar (GPR)
+- GPR antennas
+- GSSI GPR
+- GSSI SIR
+- Sensors & Software
+- MALÅ
+- IDS GeoRadar
+- Radarteam
+- Noggin
+- Conquest
+- Utility locators
+- Cable locators
+- Pipe locators
+- Metal detectors (VLF, PI, BFO)
+- Gold detectors
+- Treasure detectors
+- Underwater metal detectors
+
+### 21.8 Oceanographic & Underwater Sensors
+- CTD (conductivity, temperature, depth)
+- Seabird CTD
+- RBR CTD
+- SonTek
+- ADCP (acoustic doppler current profiler)
+- ADCP (Teledyne, Nortek, RDI)
+- DVL (doppler velocity log)
+- DVL (Teledyne, Nortek, LinkQuest)
+- Current meters
+- Acoustic current meters
+- Electromagnetic current meters
+- Mechanical current meters
+- Wave sensors
+- Wave buoys
+- Tide gauges
+- Pressure sensors (underwater)
+- Depth sensors
+- Altimeters (underwater)
+- Sub-bottom profilers
+- Chirp sonar
+- Boomer
+- Sparker
+- Pinger
+- Sidescan sonar (listed above)
+- Multibeam sonar (listed above)
+- Synthetic aperture sonar (listed above)
+- Underwater cameras
+- Underwater LiDAR
+- Underwater laser scanners
+- Underwater photogrammetry
+- Underwater GPS (USBL, LBL, SBL)
+- USBL (ultra-short baseline)
+- LBL (long baseline)
+- SBL (short baseline)
+- Acoustic modems
+- Acoustic releases
+- Acoustic transponders
+- Acoustic beacons
+- Hydrophones (listed above)
+- Magnetometers (underwater)
+- Gravimeters (underwater)
+- Subsea chemical sensors
+- Subsea gas sensors
+- Subsea pH sensors
+- Subsea oxygen sensors
+- Subsea turbidity sensors
+- Subsea fluorometers
+- Subsea nutrient sensors
+- Subsea microbial sensors
+- Subsea radiation sensors
+- Subsea cameras
+- Subsea lights
+- Subsea lasers
+- Subsea manipulators
+
+---
+
+## Axis 22: Sensor Hardware — Exotic & Emerging
+
+- Quantum sensors (NV-diamond, cold atom, SQUID, atomic clock)
+- NV-diamond magnetometers
+- NV-diamond thermometers
+- NV-diamond electric field sensors
+- Cold atom interferometers
+- Cold atom gravimeters
+- Cold atom magnetometers
+- Cold atom clocks
+- Atomic clocks (cesium, rubidium, hydrogen maser)
+- Chip-scale atomic clocks (CSAC)
+- Optical clocks
+- Quantum gravimeters
+- Quantum gradiometers
+- Quantum accelerometers
+- Quantum gyroscopes
+- Quantum radar
+- Quantum LiDAR
+- Quantum illumination
+- Quantum imaging
+- Quantum key distribution (QKD) hardware
+- Quantum random number generators (QRNG)
+- Single-photon detectors
+- Superconducting nanowire single-photon detectors (SNSPD)
+- Transition edge sensors (TES)
+- Microwave kinetic inductance detectors (MKID)
+- Gravitational wave detectors (LIGO, Virgo, KAGRA, LISA)
+- Muon detectors (trackers, scintillators, RPCs)
+- Muon tomography systems
+- Cosmic ray detectors
+- Neutrino detectors (IceCube, Super-K, DUNE)
+- Dark matter detectors (LUX, XENON, LZ)
+- Dark energy surveys
+- Terahertz (THz) sensors
+- THz time-domain spectroscopy (THz-TDS)
+- THz cameras
+- THz quantum cascade lasers (QCL)
+- THz sources
+- THz detectors
+- THz imaging systems
+- Photoacoustic sensors
+- Photoacoustic tomography
+- Photoacoustic microscopy
+- Optoacoustic sensors
+- Magnetoencephalography (MEG)
+- MEG (SQUID, OPM)
+- Optically pumped magnetometers (OPM)
+- Functional near-infrared spectroscopy (fNIRS)
+- Diffuse optical tomography (DOT)
+- Diffuse correlation spectroscopy (DCS)
+- Photoacoustic imaging (listed above)
+- Ultrasound computed tomography
+- Ultrasound elastography
+- Magnetic particle imaging (MPI)
+- Magnetic resonance imaging (MRI) (portable)
+- Portable MRI
+- Low-field MRI
+- Hyperpolarized MRI
+- Functional MRI (fMRI)
+- MR spectroscopy
+- PET (portable)
+- SPECT
+- Gamma cameras
+- Scintigraphy
+- X-ray fluorescence (XRF) (portable)
+- X-ray diffraction (XRD) (portable)
+- X-ray backscatter
+- X-ray transmission
+- Computed tomography (CT) (portable)
+- Micro-CT
+- Nano-CT
+- Electron microscopy (portable)
+- Scanning electron microscope (SEM)
+- Transmission electron microscope (TEM)
+- Atomic force microscope (AFM)
+- Scanning tunneling microscope (STM)
+- Scanning probe microscopy
+- Confocal microscopy
+- Two-photon microscopy
+- Super-resolution microscopy
+- STED
+- STORM
+- PALM
+- Light sheet microscopy
+- Raman microscopy
+- FTIR microscopy
+- Mass spectrometry imaging
+- Secondary ion mass spectrometry (SIMS)
+- Laser ablation ICP-MS
+- MALDI imaging
+- DESI imaging
+
+---
+
+## Axis 23: Communication Hardware
+
+### 23.1 Software-Defined Radio (SDR)
+- RTL-SDR (RTL2832U)
+- RTL-SDR V3
+- RTL-SDR V4
+- Nooelec NESDR
+- Nooelec Smart
+- Nooelec SMArTee
+- Airspy Mini
+- Airspy R2
+- Airspy HF+
+- Airspy Discovery
+- HackRF One
+- HackRF Jawbreaker
+- PortaPack
+- PortaPack H1
+- PortaPack H2
+- USRP (Ettus)
+- USRP B200
+- USRP B210
+- USRP N200
+- USRP N210
+- USRP X300
+- USRP X310
+- USRP E310
+- USRP E320
+- LimeSDR
+- LimeSDR Mini
+- LimeSDR USB
+- LimeNET
+- PlutoSDR (ADALM-PLUTO)
+- ADALM-2000
+- BladeRF
+- BladeRF 2.0
+- BladeRF xA4
+- BladeRF xA9
+- Matchstiq
+- Matchstiq X40
+- Matchstiq Z3u
+- Sidekiq
+- Sidekiq X4
+- Sidekiq Mini
+- SDRplay RSP1
+- SDRplay RSP1A
+- SDRplay RSP2
+- SDRplay RSPduo
+- SDRplay RSPdx
+- FunCube Dongle
+- FunCube Dongle Pro
+- FunCube Dongle Pro+
+- SoftRock
+- FiFi-SDR
+- Afedri
+- ColibriNANO
+- RX-888
+- RX-666
+- Hermes Lite 2
+- Red Pitaya
+- Analog Devices AD9361
+- Analog Devices AD9364
+- Analog Devices AD9371
+- Analog Devices ADRV9009
+- Analog Devices ADRV9002
+- Ettus B200mini
+- Ettus B205mini
+- Ettus N321
+- Ettus N320
+- Ettus X410
+- Ettus X440
+
+### 23.2 Radio Modules
+- XBee (all series)
+- XBee S1
+- XBee S2
+- XBee S2C
+- XBee 3
+- XBee Pro
+- Digi XBee
+- Digi XTend
+- Digi XStream
+- Digi XLR
+- Digi XPress
+- Digi XCite
+- Digi XTrak
+- LoRa modules (SX1276, SX1278, SX1262)
+- Semtech SX1276
+- Semtech SX1278
+- Semtech SX1261
+- Semtech SX1262
+- Semtech SX1268
+- Semtech SX1280
+- Semtech LR1110
+- Semtech LR1120
+- HopeRF RFM95
+- HopeRF RFM96
+- HopeRF RFM98
+- HopeRF RFM69
+- Murata LoRa
+- Murata CMWX1ZZABZ
+- Microchip LoRa
+- Microchip RN2483
+- Microchip RN2903
+- STM32 LoRa
+- IMST LoRa
+- IMST iM880B
+- IMST iM881A
+- RAK LoRa modules
+- RAK811
+- RAK4200
+- RAK4270
+- RAK4631
+- RAK3172
+- Heltec LoRa
+- Heltec WiFi LoRa 32
+- Heltec CubeCell
+- LilyGO LoRa
+- LilyGO T-Beam
+- LilyGO T-LoRa
+- TTGO LoRa
+- TTGO T-Beam
+- TTGO T-Echo
+- Elecrow LoRa
+- Dragino LoRa
+- Dragino LoRa Shield
+- Dragino LoRa GPS
+- Adafruit LoRa
+- Adafruit RFM95
+- Adafruit Feather LoRa
+- SparkFun LoRa
+- SparkFun RFM95
+- Seeed LoRa
+- Seeed LoRa-E5
+- Seeed Grove LoRa
+- Nordic nRF24L01
+- Nordic nRF24L01+
+- Nordic nRF24L01+ PA/LNA
+- Nordic nRF52840
+- Nordic nRF52832
+- Nordic nRF52811
+- Nordic nRF9160
+- Nordic nRF9161
+- Nordic Thingy:91
+- Nordic Thingy:52
+- RFM22
+- RFM23
+- RFM12B
+- RFM69
+- RFM70
+- RFM73
+- CC1101
+- CC1120
+- CC1125
+- CC1200
+- CC1310
+- CC1350
+- CC1352
+- CC2530
+- CC2531
+- CC2540
+- CC2541
+- CC2564
+- CC2640
+- CC2650
+- CC2652
+- CC3200
+- CC3220
+- ESP32 (Wi-Fi/BT)
+- ESP8266 (Wi-Fi)
+- ESP32-C3
+- ESP32-C6
+- ESP32-H2
+- ESP32-S2
+- ESP32-S3
+- Realtek RTL8720
+- Realtek RTL8722
+- Realtek Ameba
+- Beken BK7231
+- Beken BK7252
+- Telink TLSR
+- Telink TLSR825x
+- Telink TLSR951x
+- Silicon Labs EFR32
+- Silicon Labs BGM
+- Silicon Labs MGM
+- Silicon Labs xGM
+- TI SimpleLink
+- TI CC26xx
+- TI CC13xx
+- TI Wi-Fi CC3xxx
+- TI Bluetooth CC26xx
+- Microchip ATWINC
+- Microchip ATBTLC
+- Microchip RN4870
+- Microchip RN4871
+- Microchip BM70
+- Microchip BM78
+- Microchip BM83
+- Cypress CYW
+- Cypress CYW4343W
+- Cypress CYW43455
+- Cypress CYW20706
+- Cypress CYW20719
+- Cypress CYW20819
+- Cypress CYW20829
+- NXP KW
+- NXP KW41Z
+- NXP KW45
+- NXP JN516x
+- NXP QN902x
+- NXP AW
+- NXP IW612
+- NXP 88W8987
+- NXP 88W8997
+- NXP 88W9098
+- Murata Wi-Fi/BT modules
+- Murata Type 1DX
+- Murata Type 1YM
+- Murata Type 2AE
+- Murata Type 2EL
+- Murata Type 2EA
+- u-blox Wi-Fi/BT modules
+- u-blox NINA-B1
+- u-blox NINA-B2
+- u-blox NINA-B3
+- u-blox NINA-B4
+- u-blox NINA-W10
+- u-blox NINA-W13
+- u-blox NINA-W15
+- u-blox ANNA-B1
+- u-blox ANNA-B4
+- u-blox JODY-W1
+- u-blox JODY-W2
+- u-blox JODY-W3
+- u-blox JODY-W4
+- u-blox MAYA-W1
+- u-blox MAYA-W2
+- u-blox LILY-W1
+- u-blox ODIN-W2
+
+### 23.3 Cellular Modems
+- Quectel BG95
+- Quectel BG96
+- Quectel BG77
+- Quectel BG770
+- Quectel BC66
+- Quectel BC95
+- Quectel EC21
+- Quectel EC25
+- Quectel EG25
+- Quectel EG91
+- Quectel EG95
+- Quectel EP06
+- Quectel RM500Q
+- Quectel RM502Q
+- Quectel RM520N
+- Quectel RM521F
+- Quectel RM530N
+- Quectel RG500Q
+- Quectel RG502Q
+- Quectel RG520N
+- Quectel EM05
+- Quectel EM06
+- Quectel EM12
+- Quectel EM20
+- Quectel EM160
+- Quectel EM7455
+- Quectel EM7565
+- Quectel LTE-A
+- Simcom SIM7000
+- Simcom SIM7600
+- Simcom SIM800
+- Simcom SIM808
+- Simcom SIM868
+- Simcom A7670
+- Simcom A7600
+- Simcom SIM8200
+- Simcom SIM8262
+- Simcom SIM8270
+- Simcom SIM7080
+- Simcom SIM7020
+- Simcom SIM7022
+- Telit LE910
+- Telit LE920
+- Telit ME910
+- Telit ML865
+- Telit LM960
+- Telit FN980
+- Telit FT980
+- Telit HE910
+- Telit UE910
+- Telit UL865
+- Telit GE910
+- Telit GL865
+- Telit GM862
+- Telit GC864
+- Telit CC864
+- Telit CE910
+- Telit DE910
+- Telit LN940
+- Telit LN960
+- Telit LM940
+- Sierra Wireless HL
+- Sierra Wireless WP
+- Sierra Wireless MC
+- Sierra Wireless EM
+- Sierra Wireless RC
+- Sierra Wireless RV
+- Sierra Wireless AirPrime
+- Sierra Wireless EM7455
+- Sierra Wireless EM7565
+- Sierra Wireless EM9190
+- Sierra Wireless EM9191
+- Sierra Wireless MC7304
+- Sierra Wireless MC7354
+- Sierra Wireless MC7455
+- Sierra Wireless MC7700
+- Sierra Wireless MC7710
+- Sierra Wireless MC7750
+- Sierra Wireless MC8790
+- Sierra Wireless MC8805
+- Sierra Wireless SL8080
+- Sierra Wireless SL8082
+- Sierra Wireless Q2687
+- Sierra Wireless Q2698
+- u-blox LARA-R2
+- u-blox LARA-R6
+- u-blox LARA-L6
+- u-blox TOBY-L2
+- u-blox TOBY-L4
+- u-blox TOBY-R2
+- u-blox SARA-G3
+- u-blox SARA-U2
+- u-blox SARA-N2
+- u-blox SARA-N3
+- u-blox SARA-R4
+- u-blox SARA-R5
+- u-blox SARA-R500S
+- u-blox LENA-R8
+- u-blox LEXI-R10
+- u-blox ALEX-R5
+- u-blox MAYA-W2 (dual)
+- u-blox JODY-W3 (dual)
+- Thales Cinterion
+- Thales ELS
+- Thales PLS
+- Thales PHS
+- Thales TX
+- Thales BGS
+- Thales BG5
+- Thales EHS
+- Thales LGA
+- Thales MV
+- Thales PV
+- Thales AC
+- Thales AH
+- Thales AL
+- Thales EX
+- Thales HL
+- Thales HC
+- Thales HS
+- Huawei ME906
+- Huawei ME909
+- Huawei ME936
+- Huawei MU609
+- Huawei MU709
+- Huawei MU736
+- Huawei MU739
+- Huawei MU509
+- Huawei MU709s
+- Huawei ME906s
+- Huawei ME936s
+- Fibocom
+- Fibocom L610
+- Fibocom L810
+- Fibocom L830
+- Fibocom L850
+- Fibocom L860
+- Fibocom FM150
+- Fibocom FM160
+- Fibocom FM330
+- Fibocom FG150
+- Fibocom FG160
+- Fibocom FG360
+- Fibocom MC116
+- Fibocom MC118
+- Fibocom NL668
+- Fibocom NL678
+- Fibocom G510
+- Fibocom G600
+- Fibocom M910
+- Fibocom H330
+- Fibocom H380
+- MeiG
+- MeiG SLM750
+- MeiG SLM770
+- MeiG SRM815
+- MeiG SRM825W
+- MeiG SLM320
+- MeiG SLM320-E
+- Neoway
+- Neoway N720
+- Neoway N75
+- Neoway N77
+- Neoway N58
+- Neoway N51
+- Neoway N27
+- Neoway N21
+- Neoway N11
+- Neoway N10
+- Neoway N9
+- Neoway N8
+- Neoway N7
+- Neoway N5
+- Neoway N1
+- Neoway N8 Plus
+- Neoway N9 Plus
+- Neoway N720 Plus
+- Neoway N75 Plus
+
+### 23.4 Satellite Communication
+- Iridium 9522B
+- Iridium 9523
+- Iridium 9602
+- Iridium 9603
+- Iridium 9603N
+- Iridium Edge
+- Iridium GO!
+- Iridium GO! exec
+- Iridium Certus
+- Iridium Extreme
+- Iridium 9575
+- Iridium 9555
+- Iridium 9505A
+- Iridium 9500
+- Iridium 9575A
+- Iridium 9575 PTT
+- Iridium 9522A
+- Iridium 9522B
+- Inmarsat IsatPhone 2
+- Inmarsat IsatPhone Pro
+- Inmarsat BGAN
+- Inmarsat BGAN Explorer
+- Inmarsat BGAN Link
+- Inmarsat FleetBroadband
+- Inmarsat Fleet One
+- Inmarsat Fleet Xpress
+- Inmarsat GX
+- Inmarsat Global Xpress
+- Inmarsat SwiftBroadband
+- Inmarsat Classic Aero
+- Inmarsat Mini-M
+- Inmarsat Mini-C
+- Inmarsat C
+- Inmarsat D
+- Inmarsat D+
+- Inmarsat M
+- Inmarsat GAN
+- Inmarsat R-BGAN
+- Inmarsat F77
+- Inmarsat F55
+- Inmarsat F33
+- Inmarsat F11
+- Inmarsat F55
+- Inmarsat Sailor
+- Inmarsat Fleet
+- Inmarsat Marine
+- Inmarsat Land
+- Inmarsat Aeronautical
+- Inmarsat AT
+- Inmarsat Maritime
+- Globalstar GSP-1600
+- Globalstar GSP-1700
+- Globalstar GSP-2900
+- Globalstar GSP-2800
+- Globalstar GSP-1200
+- Globalstar SmartOne
+- Globalstar ST100
+- Globalstar STX3
+- Globalstar STINGR
+- Globalstar Sat-Fi
+- Globalstar Sat-Fi2
+- Globalstar SPOT
+- Globalstar SPOT Gen3
+- Globalstar SPOT X
+- Globalstar SPOT Trace
+- Globalstar SPOT Connect
+- Globalstar SPOT Gen4
+- Globalstar SPOT X 2
+- Thuraya
+- Thuraya XT
+- Thuraya XT-PRO
+- Thuraya XT-LITE
+- Thuraya IP
+- Thuraya IP Voyager
+- Thuraya IP Commander
+- Thuraya Orion
+- Thuraya SatSleeve
+- Thuraya SatSleeve+
+- Thuraya SatSleeve Hotspot
+- Thuraya WE
+- Thuraya MarineStar
+- Thuraya SG-2520
+- Thuraya SO-2510
+- Thuraya XT-DUAL
+- Thuraya XT-PRO DUAL
+- Starlink
+- Starlink Standard
+- Starlink Mini
+- Starlink Roam
+- Starlink Maritime
+- Starlink Aviation
+- Starlink Business
+- Starlink RV
+- Starlink Flat High Performance
+- Starlink Mobility
+- Swarm
+- Swarm M138
+- Swarm Tile
+- Swarm Eval Kit
+- Swarm SpaceBEE
+- Astrocast
+- Astrocast Astronode
+- Astrocast Developer Kit
+- Myriota
+- Myriota Developer Kit
+- Lacuna Space
+- Lacuna LS200
+- Kepler Communications
+- Kepler KISS
+- OQ Technology
+- OQ TIGER
+- Skylo
+- Skylo NTN
+- Ligado
+- Ligado SkyTerra
+- Ligado MSS
+- Viasat
+- Viasat Maritime
+- Viasat Aviation
+- Viasat Government
+- Viasat Residential
+- HughesNet
+- HughesNet Jupiter
+- HughesNet Gen5
+- HughesNet Fusion
+- EchoStar
+- EchoStar Jupiter
+- EchoStar Hughes
+- SES
+- SES Networks
+- SES O3b
+- SES mPOWER
+- Intelsat
+- Intelsat Epic
+- Intelsat Flex
+- Intelsat Horizons
+- Intelsat Galaxy
+- Eutelsat
+- Eutelsat Konnect
+- Eutelsat KA-SAT
+- Eutelsat Hot Bird
+- Telesat
+- Telesat LEO
+- Telesat Lightspeed
+
+### 23.5 Networking Hardware
+- Ethernet NICs (1GbE, 2.5GbE, 5GbE, 10GbE, 25GbE, 40GbE, 100GbE)
+- Intel Ethernet
+- Broadcom Ethernet
+- Realtek Ethernet
+- Marvell Ethernet
+- Aquantia Ethernet
+- Mellanox Ethernet
+- Chelsio Ethernet
+- Wi-Fi adapters (all chipsets)
+- Alfa Wi-Fi adapters (AWUS036 series)
+- Alfa AWUS036ACH
+- Alfa AWUS036NHA
+- Alfa AWUS036H
+- Alfa AWUS036NH
+- Alfa AWUS036ACS
+- Alfa AWUS036ACM
+- Alfa AWUS1900
+- Alfa AWUS036AC
+- Alfa Tube-UAC
+- Alfa Tube-UAC2
+- Alfa R36
+- Panda Wi-Fi adapters
+- Panda PAU05
+- Panda PAU06
+- Panda PAU09
+- Panda PAU10
+- Panda PAU12
+- Panda PAU16
+- Panda PAU19
+- TP-Link Wi-Fi adapters
+- TP-Link TL-WN722N
+- TP-Link TL-WN725N
+- TP-Link Archer
+- TP-Link T series
+- Netgear Wi-Fi adapters
+- Netgear A6210
+- Netgear A7000
+- Netgear Nighthawk
+- Asus Wi-Fi adapters
+- Asus USB-AC68
+- Asus USB-AC56
+- Asus USB-N66
+- D-Link Wi-Fi adapters
+- Edimax Wi-Fi adapters
+- Realtek RTL8811AU
+- Realtek RTL8812AU
+- Realtek RTL8814AU
+- Realtek RTL8821AU
+- Realtek RTL8822BU
+- Realtek RTL8188
+- Realtek RTL8192
+- Ralink RT3070
+- Ralink RT5370
+- Ralink RT5572
+- MediaTek MT7612U
+- MediaTek MT7610U
+- MediaTek MT7921
+- MediaTek MT7922
+- Atheros AR9271
+- Atheros AR9280
+- Atheros AR9285
+- Atheros AR9485
+- Qualcomm QCA9377
+- Qualcomm QCA6174
+- Qualcomm QCA6391
+- Qualcomm QCA6696
+- Qualcomm WCN6856
+- Intel AX200
+- Intel AX210
+- Intel AX211
+- Intel BE200
+- Intel BE202
+- Bluetooth adapters (all chipsets)
+- Bluetooth USB dongles
+- Bluetooth LE dongles
+- Bluetooth 5.x dongles
+- Zigbee adapters
+- Zigbee USB dongles (CC2531, CC2652, ConBee)
+- CC2531
+- CC2652
+- ConBee II
+- ConBee III
+- Z-Wave adapters
+- Z-Wave USB sticks (Aeotec, Zooz)
+- Aeotec Z-Stick
+- Zooz ZST10
+- Hubitat Z-Wave stick
+- Thread adapters
+- Thread Border Routers
+- Matter controllers
+- Matter border routers
+- Home Assistant SkyConnect
+- Home Assistant Yellow
+- Sonoff Zigbee
+- Sonoff ZBDongle-E
+- Sonoff ZBDongle-P
+- SLZB-06
+- SMLIGHT SLZB-06
+- Ethernet switches
+- PoE injectors
+- PoE splitters
+- PoE switches
+- Media converters
+- Network taps
+- Network testers
+- Cable certifiers
+- Network analyzers
+- Protocol analyzers
+- Packet capture devices
+- TAPs (test access points)
+- Aggregators
+- Splitters
+- Load balancers
+- Firewalls (hardware)
+- Routers (hardware)
+- Modems (DSL, cable, fiber)
+- ONT (optical network terminal)
+- OLT (optical line terminal)
+- GPON
+- EPON
+- XGS-PON
+- Fiber optic transceivers (SFP, SFP+, QSFP, QSFP-DD, OSFP)
+- Direct attach cables (DAC)
+- Active optical cables (AOC)
+- Fiber optic cables (single-mode, multimode)
+- Fiber optic connectors (LC, SC, ST, FC, MTP, MPO)
+- Coaxial cables
+- Twisted pair cables
+- Shielded twisted pair
+- Unshielded twisted pair
+- Cat5e, Cat6, Cat6a, Cat7, Cat8
+- Patch panels
+- Keystone jacks
+- RJ45 connectors
+- Crimpers
+- Punch-down tools
+- Cable testers
+- Toners and probes
+- OTDR (optical time-domain reflectometer)
+- Fusion splicers
+- Cleavers
+- Fiber strippers
+- Visual fault locators
+
+### 23.6 Antennas
+- Dipole antennas
+- Monopole antennas
+- Yagi antennas
+- Log-periodic antennas
+- Discone antennas
+- Biconical antennas
+- Horn antennas
+- Parabolic antennas
+- Helical antennas
+- Spiral antennas
+- Patch antennas
+- Microstrip antennas
+- Slot antennas
+- Loop antennas
+- Ferrite loop antennas
+- Beverage antennas
+- Longwire antennas
+- Random wire antennas
+- End-fed half-wave antennas
+- End-fed random wire antennas
+- Off-center fed dipole antennas
+- Windom antennas
+- G5RV antennas
+- Zepp antennas
+- Doublet antennas
+- Loop antennas (magnetic loop, sky loop)
+- Magnetic loop antennas
+- Quad antennas
+- Cubical quad antennas
+- Delta loop antennas
+- Moxon antennas
+- Hexbeam antennas
+- Spiderbeam antennas
+- SteppIR antennas
+- Phased arrays
+- Butler matrix arrays
+- MIMO arrays
+- Massive MIMO arrays
+- Beamforming arrays
+- Adaptive arrays
+- Smart antennas
+- Active antennas
+- Passive antennas
+- Wideband antennas
+- Ultra-wideband antennas
+- Narrowband antennas
+- Multi-band antennas
+- Tunable antennas
+- Reconfigurable antennas
+- Metamaterial antennas
+- Fractal antennas
+- Dielectric resonator antennas
+- Lens antennas
+- Reflectarray antennas
+- Transmitarray antennas
+- Frequency selective surfaces
+- Leaky wave antennas
+- Surface wave antennas
+- Plasma antennas
+- Graphene antennas
+- Carbon nanotube antennas
+- Nano antennas
+- MEMS antennas
+- Origami antennas
+- Deployable antennas
+- Inflatable antennas
+- Balloon antennas
+- Kite antennas
+- Drone antennas
+- Satellite antennas
+- Ground station antennas
+- EME antennas
+- Radio telescope antennas
+- Radio astronomy arrays
+- Phased array feeds
+- Focal plane arrays
+- Interferometer arrays
+- Aperture synthesis arrays
+- VLBI arrays
+- SKA antennas
+- LOFAR antennas
+- MWA antennas
+- HERA antennas
+- PAPER antennas
+- CHIME antennas
+- FAST antennas
+- Arecibo antennas
+- Green Bank antennas
+- Effelsberg antennas
+- Parkes antennas
+- VLA antennas
+- ALMA antennas
+- SMA antennas
+- JCMT antennas
+- CSO antennas
+- IRAM antennas
+- NOEMA antennas
+- Plateau de Bure antennas
+- ATCA antennas
+- Mopra antennas
+- ASKAP antennas
+- MeerKAT antennas
+- HERA antennas
+- LOFAR antennas
+- NenuFAR antennas
+- LWA antennas
+- OVRO-LWA antennas
+- LWA1 antennas
+- LWA-SV antennas
+
+---
+
+## Axis 24: Wireless & RF Security Hardware
+
+### 24.1 Wi-Fi Security
+- Alfa AWUS036ACH
+- Alfa AWUS036NHA
+- Alfa AWUS036H
+- Alfa AWUS036NH
+- Alfa AWUS036ACS
+- Alfa AWUS036ACM
+- Alfa AWUS1900
+- Alfa AWUS036AC
+- Alfa Tube-UAC
+- Alfa Tube-UAC2
+- Alfa R36
+- Alfa AP121U
+- Alfa AP51
+- Alfa Hornet-UB
+- TP-Link TL-WN722N (v1)
+- TP-Link TL-WN722N (v2/v3)
+- TP-Link Archer T2U
+- TP-Link Archer T4U
+- TP-Link Archer T9UH
+- TP-Link Archer T3U
+- Panda PAU05
+- Panda PAU06
+- Panda PAU09
+- Panda PAU10
+- Panda PAU12
+- Panda PAU16
+- Panda PAU19
+- Panda Wireless
+- Hak5 WiFi Pineapple
+- Hak5 WiFi Pineapple Nano
+- Hak5 WiFi Pineapple Tetra
+- Hak5 WiFi Pineapple Mark VII
+- Hak5 WiFi Pineapple Enterprise
+- Hak5 WiFi Pineapple Pager
+- Hak5 Signal Owl
+- Hak5 Packet Squirrel
+- Hak5 LAN Turtle
+- Hak5 Bash Bunny
+- Hak5 Rubber Ducky
+- Hak5 O.MG Cable
+- Hak5 O.MG Plug
+- Hak5 KeyCroak
+- Hak5 Plunder Bug
+- Hak5 Screen Crab
+- Hak5 USB Rubber Ducky
+- Hak5 Shark Jack
+- Hak5 Cloud C2
+- Hak5 Wi-Fi Pineapple connector
+- Panda Wireless PAU09
+- Panda Wireless PAU06
+- Panda Wireless PAU05
+- Panda Wireless PAU03
+- Panda Wireless PAU07
+- Panda Wireless PAU08
+- Panda Wireless PAU09
+- Panda Wireless PAU10
+- Panda Wireless PAU12
+- Panda Wireless PAU16
+- Panda Wireless PAU17
+- Panda Wireless PAU18
+- Panda Wireless PAU19
+- Panda Wireless PAU20
+- Panda Wireless PAU21
+- Panda Wireless PAU22
+- Panda Wireless PAU23
+- Panda Wireless PAU24
+- Panda Wireless PAU25
+- Panda Wireless PAU26
+- Panda Wireless PAU27
+- Panda Wireless PAU28
+- Panda Wireless PAU29
+- Panda Wireless PAU30
+- Panda Wireless PAU31
+- Panda Wireless PAU32
+
+### 24.2 Bluetooth & BLE Security
+- Ubertooth One
+- Ubertooth
+- Ubertooth Sniffer
+- Ubertooth Spectrum
+- Bluefruit LE Sniffer
+- Nordic nRF Sniffer
+- Adafruit Bluefruit
+- BlueZ hardware
+- BlueZ dongles
+- CSR 4.0 dongle
+- CSR 5.0 dongle
+- Realtek BT dongle
+- Intel BT
+- Broadcom BT
+- BlueGiga
+- BlueGiga BLED112
+- BlueGiga WT11
+- BlueGiga WT12
+- BlueGiga WT32
+- BlueGiga WT41
+- BlueGiga BLE112
+- BlueGiga BLE113
+- BlueGiga BLE121LR
+- Laird BT
+- Laird BL600
+- Laird BL620
+- Laird BL652
+- Laird BL654
+- Microchip BT
+- Microchip RN42
+- Microchip RN41
+- Microchip RN52
+- Microchip RN4677
+- Microchip RN4870
+- Microchip RN4871
+- Microchip BM70
+- Microchip BM71
+- Microchip BM77
+- Microchip BM78
+- Microchip BM83
+- Silicon Labs BT
+- Silicon Labs BGM11S
+- Silicon Labs BGM13S
+- Silicon Labs BGM13P
+- Silicon Labs BGM220
+- Silicon Labs BGM220S
+- Silicon Labs BGM220P
+- Silicon Labs BGM221
+- Silicon Labs BGM240
+- Silicon Labs BGM240S
+- Silicon Labs BGM240P
+- Silicon Labs BGM240L
+- Silicon Labs BGM241
+- Silicon Labs BGM241S
+- Silicon Labs BGM241P
+- Nordic BT
+- Nordic nRF51
+- Nordic nRF52
+- Nordic nRF53
+- Nordic nRF91
+- Nordic Thingy:52
+- Nordic Thingy:91
+- Nordic Thingy:53
+- Nordic nRF DK
+- Nordic nRF Connect
+- MDBT
+- MDBT40
+- MDBT42
+- MDBT50
+- Fanstel BT
+- Fanstel BT832
+- Fanstel BT840
+- Fanstel BC832
+- Fanstel BC840
+- Fanstel BM832
+- Fanstel BM840
+- Raytac BT
+- Raytac MDBT40
+- Raytac MDBT42
+- Raytac MDBT50
+- Telit BT
+- Telit BL871
+- Telit BL871A
+- Telit BL871E
+- Telit WE866
+- Telit WE866C
+- u-blox BT
+- u-blox NINA-B1
+- u-blox NINA-B2
+- u-blox NINA-B3
+- u-blox NINA-B4
+- u-blox NINA-B5
+- u-blox ANNA-B1
+- u-blox ANNA-B4
+- u-blox ANNA-B5
+- u-blox JODY-W1
+- u-blox JODY-W2
+- u-blox JODY-W3
+- u-blox JODY-W4
+- u-blox MAYA-W1
+- u-blox MAYA-W2
+
+### 24.3 RFID, NFC & Proximity
+- Proxmark3
+- Proxmark3 RDV4
+- Proxmark3 Easy
+- Proxmark3 X
+- Chameleon Mini
+- Chameleon Mini RevG
+- Chameleon Tiny
+- Chameleon Ultra
+- Chameleon Lite
+- Flipper Zero
+- Keysy
+- Keysy 125kHz
+- Keysy 13.56MHz
+- Keysy Dual
+- RFiDler
+- iCopy-X
+- iCopy-XS
+- NFC Ring
+- NFC Tags
+- Mifare Classic
+- Mifare Ultralight
+- Mifare DESFire
+- NTAG213
+- NTAG215
+- NTAG216
+- NTAG424
+- ICODE SLIX
+- EM4100
+- EM4102
+- HID Prox
+- HID iCLASS
+- HID Seos
+- Indala
+- AWID
+- Paradox
+- Farpointe
+- Honeywell
+- Lenel
+- Mercury
+- HID readers
+- RFID readers (125kHz, 13.56MHz, UHF)
+- RFID antennas
+- RFID writers
+- RFID cloners
+- RFID blockers
+- RFID faraday bags
+- RFID wallets
+- RFID sleeves
+- NFC readers
+- ACR122U
+- ACR1252U
+- ACR1255U
+- ACR122U-A9
+- PN532
+- PN532 NFC module
+- PN5180
+- PN7150
+- PN7160
+- PN7362
+- PN7642
+- RC522
+- RC522 RFID module
+- MFRC522
+- MFRC630
+- MFRC631
+- MFRC522 (13.56MHz)
+- RDM6300
+- RDM630
+- RDM880
+- ID-20LA
+- ID-12LA
+- EM-18
+- EM-4090
